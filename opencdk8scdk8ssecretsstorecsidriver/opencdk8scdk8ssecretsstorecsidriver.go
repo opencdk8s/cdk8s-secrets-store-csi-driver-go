@@ -1,14 +1,14 @@
-// cdk8s-secrets-store-csi-driver
-package cdk8ssecretsstorecsidriver
+// @opencdk8s/cdk8s-secrets-store-csi-driver
+package opencdk8scdk8ssecretsstorecsidriver
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/opencdk8s/cdk8s-secrets-store-csi-driver-go/cdk8ssecretsstorecsidriver/jsii"
+	_init_ "github.com/opencdk8s/cdk8s-secrets-store-csi-driver-go/opencdk8scdk8ssecretsstorecsidriver/jsii"
 
 	"github.com/aws/constructs-go/constructs/v3"
 	"github.com/cdk8s-team/cdk8s-core-go/cdk8s"
-	"github.com/opencdk8s/cdk8s-secrets-store-csi-driver-go/cdk8ssecretsstorecsidriver/internal"
-	"github.com/opencdk8s/cdk8s-secrets-store-csi-driver-go/cdk8ssecretsstorecsidriver/k8s"
+	"github.com/opencdk8s/cdk8s-secrets-store-csi-driver-go/opencdk8scdk8ssecretsstorecsidriver/internal"
+	"github.com/opencdk8s/cdk8s-secrets-store-csi-driver-go/opencdk8scdk8ssecretsstorecsidriver/k8s"
 )
 
 // Experimental.
@@ -202,7 +202,7 @@ func NewSecretProviderClass(scope constructs.Construct, id *string, props *Secre
 	j := jsiiProxy_SecretProviderClass{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.SecretProviderClass",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.SecretProviderClass",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -215,7 +215,7 @@ func NewSecretProviderClass_Override(s SecretProviderClass, scope constructs.Con
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.SecretProviderClass",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.SecretProviderClass",
 		[]interface{}{scope, id, props},
 		s,
 	)
@@ -228,7 +228,7 @@ func SecretProviderClass_Manifest(props *SecretProviderClassProps) interface{} {
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.SecretProviderClass",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.SecretProviderClass",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -249,7 +249,7 @@ func SecretProviderClass_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.SecretProviderClass",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.SecretProviderClass",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -262,7 +262,7 @@ func SecretProviderClass_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.SecretProviderClass",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.SecretProviderClass",
 		"GVK",
 		&returns,
 	)
@@ -497,7 +497,7 @@ func NewSecretProviderClassList(scope constructs.Construct, id *string, props *S
 	j := jsiiProxy_SecretProviderClassList{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.SecretProviderClassList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.SecretProviderClassList",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -510,7 +510,7 @@ func NewSecretProviderClassList_Override(s SecretProviderClassList, scope constr
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.SecretProviderClassList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.SecretProviderClassList",
 		[]interface{}{scope, id, props},
 		s,
 	)
@@ -523,7 +523,7 @@ func SecretProviderClassList_Manifest(props *SecretProviderClassListProps) inter
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.SecretProviderClassList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.SecretProviderClassList",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -544,7 +544,7 @@ func SecretProviderClassList_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.SecretProviderClassList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.SecretProviderClassList",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -557,7 +557,7 @@ func SecretProviderClassList_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.SecretProviderClassList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.SecretProviderClassList",
 		"GVK",
 		&returns,
 	)

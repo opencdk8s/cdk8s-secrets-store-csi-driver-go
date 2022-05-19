@@ -1,4 +1,4 @@
-module github.com/opencdk8s/cdk8s-secrets-store-csi-driver-go/cdk8ssecretsstorecsidriver
+module github.com/opencdk8s/cdk8s-secrets-store-csi-driver-go/opencdk8scdk8ssecretsstorecsidriver
 
 go 1.16
 

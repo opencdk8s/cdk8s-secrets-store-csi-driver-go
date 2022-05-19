@@ -4,11 +4,11 @@ import (
 	"time"
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/opencdk8s/cdk8s-secrets-store-csi-driver-go/cdk8ssecretsstorecsidriver/jsii"
+	_init_ "github.com/opencdk8s/cdk8s-secrets-store-csi-driver-go/opencdk8scdk8ssecretsstorecsidriver/jsii"
 
 	"github.com/aws/constructs-go/constructs/v3"
 	"github.com/cdk8s-team/cdk8s-core-go/cdk8s"
-	"github.com/opencdk8s/cdk8s-secrets-store-csi-driver-go/cdk8ssecretsstorecsidriver/k8s/internal"
+	"github.com/opencdk8s/cdk8s-secrets-store-csi-driver-go/opencdk8scdk8ssecretsstorecsidriver/k8s/internal"
 )
 
 // Affinity is a group of affinity scheduling rules.
@@ -3192,7 +3192,7 @@ func IntOrString_FromNumber(value *float64) IntOrString {
 	var returns IntOrString
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.IntOrString",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.IntOrString",
 		"fromNumber",
 		[]interface{}{value},
 		&returns,
@@ -3208,7 +3208,7 @@ func IntOrString_FromString(value *string) IntOrString {
 	var returns IntOrString
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.IntOrString",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.IntOrString",
 		"fromString",
 		[]interface{}{value},
 		&returns,
@@ -3889,7 +3889,7 @@ func NewKubeApiService(scope constructs.Construct, id *string, props *KubeApiSer
 	j := jsiiProxy_KubeApiService{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeApiService",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeApiService",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -3903,7 +3903,7 @@ func NewKubeApiService_Override(k KubeApiService, scope constructs.Construct, id
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeApiService",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeApiService",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -3919,7 +3919,7 @@ func KubeApiService_Manifest(props *KubeApiServiceProps) interface{} {
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeApiService",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeApiService",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -3940,7 +3940,7 @@ func KubeApiService_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeApiService",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeApiService",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -3953,7 +3953,7 @@ func KubeApiService_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeApiService",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeApiService",
 		"GVK",
 		&returns,
 	)
@@ -4187,7 +4187,7 @@ func NewKubeApiServiceList(scope constructs.Construct, id *string, props *KubeAp
 	j := jsiiProxy_KubeApiServiceList{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeApiServiceList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeApiServiceList",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -4201,7 +4201,7 @@ func NewKubeApiServiceList_Override(k KubeApiServiceList, scope constructs.Const
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeApiServiceList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeApiServiceList",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -4217,7 +4217,7 @@ func KubeApiServiceList_Manifest(props *KubeApiServiceListProps) interface{} {
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeApiServiceList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeApiServiceList",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -4238,7 +4238,7 @@ func KubeApiServiceList_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeApiServiceList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeApiServiceList",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -4251,7 +4251,7 @@ func KubeApiServiceList_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeApiServiceList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeApiServiceList",
 		"GVK",
 		&returns,
 	)
@@ -4494,7 +4494,7 @@ func NewKubeApiServiceListV1Beta1(scope constructs.Construct, id *string, props 
 	j := jsiiProxy_KubeApiServiceListV1Beta1{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeApiServiceListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeApiServiceListV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -4508,7 +4508,7 @@ func NewKubeApiServiceListV1Beta1_Override(k KubeApiServiceListV1Beta1, scope co
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeApiServiceListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeApiServiceListV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -4524,7 +4524,7 @@ func KubeApiServiceListV1Beta1_Manifest(props *KubeApiServiceListV1Beta1Props) i
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeApiServiceListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeApiServiceListV1Beta1",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -4545,7 +4545,7 @@ func KubeApiServiceListV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeApiServiceListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeApiServiceListV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -4558,7 +4558,7 @@ func KubeApiServiceListV1Beta1_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeApiServiceListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeApiServiceListV1Beta1",
 		"GVK",
 		&returns,
 	)
@@ -4815,7 +4815,7 @@ func NewKubeApiServiceV1Beta1(scope constructs.Construct, id *string, props *Kub
 	j := jsiiProxy_KubeApiServiceV1Beta1{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeApiServiceV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeApiServiceV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -4829,7 +4829,7 @@ func NewKubeApiServiceV1Beta1_Override(k KubeApiServiceV1Beta1, scope constructs
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeApiServiceV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeApiServiceV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -4845,7 +4845,7 @@ func KubeApiServiceV1Beta1_Manifest(props *KubeApiServiceV1Beta1Props) interface
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeApiServiceV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeApiServiceV1Beta1",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -4866,7 +4866,7 @@ func KubeApiServiceV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeApiServiceV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeApiServiceV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -4879,7 +4879,7 @@ func KubeApiServiceV1Beta1_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeApiServiceV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeApiServiceV1Beta1",
 		"GVK",
 		&returns,
 	)
@@ -5127,7 +5127,7 @@ func NewKubeBinding(scope constructs.Construct, id *string, props *KubeBindingPr
 	j := jsiiProxy_KubeBinding{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeBinding",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeBinding",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -5141,7 +5141,7 @@ func NewKubeBinding_Override(k KubeBinding, scope constructs.Construct, id *stri
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeBinding",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeBinding",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -5157,7 +5157,7 @@ func KubeBinding_Manifest(props *KubeBindingProps) interface{} {
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeBinding",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeBinding",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -5178,7 +5178,7 @@ func KubeBinding_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeBinding",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeBinding",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -5191,7 +5191,7 @@ func KubeBinding_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeBinding",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeBinding",
 		"GVK",
 		&returns,
 	)
@@ -5446,7 +5446,7 @@ func NewKubeCertificateSigningRequest(scope constructs.Construct, id *string, pr
 	j := jsiiProxy_KubeCertificateSigningRequest{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequest",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequest",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -5460,7 +5460,7 @@ func NewKubeCertificateSigningRequest_Override(k KubeCertificateSigningRequest, 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequest",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequest",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -5476,7 +5476,7 @@ func KubeCertificateSigningRequest_Manifest(props *KubeCertificateSigningRequest
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequest",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequest",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -5497,7 +5497,7 @@ func KubeCertificateSigningRequest_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequest",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequest",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -5510,7 +5510,7 @@ func KubeCertificateSigningRequest_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequest",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequest",
 		"GVK",
 		&returns,
 	)
@@ -5744,7 +5744,7 @@ func NewKubeCertificateSigningRequestList(scope constructs.Construct, id *string
 	j := jsiiProxy_KubeCertificateSigningRequestList{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequestList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequestList",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -5758,7 +5758,7 @@ func NewKubeCertificateSigningRequestList_Override(k KubeCertificateSigningReque
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequestList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequestList",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -5774,7 +5774,7 @@ func KubeCertificateSigningRequestList_Manifest(props *KubeCertificateSigningReq
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequestList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequestList",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -5795,7 +5795,7 @@ func KubeCertificateSigningRequestList_Of(c constructs.IConstruct) cdk8s.ApiObje
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequestList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequestList",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -5808,7 +5808,7 @@ func KubeCertificateSigningRequestList_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequestList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequestList",
 		"GVK",
 		&returns,
 	)
@@ -6051,7 +6051,7 @@ func NewKubeCertificateSigningRequestListV1Beta1(scope constructs.Construct, id 
 	j := jsiiProxy_KubeCertificateSigningRequestListV1Beta1{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequestListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequestListV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -6065,7 +6065,7 @@ func NewKubeCertificateSigningRequestListV1Beta1_Override(k KubeCertificateSigni
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequestListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequestListV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -6081,7 +6081,7 @@ func KubeCertificateSigningRequestListV1Beta1_Manifest(props *KubeCertificateSig
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequestListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequestListV1Beta1",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -6102,7 +6102,7 @@ func KubeCertificateSigningRequestListV1Beta1_Of(c constructs.IConstruct) cdk8s.
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequestListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequestListV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -6115,7 +6115,7 @@ func KubeCertificateSigningRequestListV1Beta1_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequestListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequestListV1Beta1",
 		"GVK",
 		&returns,
 	)
@@ -6375,7 +6375,7 @@ func NewKubeCertificateSigningRequestV1Beta1(scope constructs.Construct, id *str
 	j := jsiiProxy_KubeCertificateSigningRequestV1Beta1{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequestV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequestV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -6389,7 +6389,7 @@ func NewKubeCertificateSigningRequestV1Beta1_Override(k KubeCertificateSigningRe
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequestV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequestV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -6405,7 +6405,7 @@ func KubeCertificateSigningRequestV1Beta1_Manifest(props *KubeCertificateSigning
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequestV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequestV1Beta1",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -6426,7 +6426,7 @@ func KubeCertificateSigningRequestV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiO
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequestV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequestV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -6439,7 +6439,7 @@ func KubeCertificateSigningRequestV1Beta1_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequestV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequestV1Beta1",
 		"GVK",
 		&returns,
 	)
@@ -6683,7 +6683,7 @@ func NewKubeClusterRole(scope constructs.Construct, id *string, props *KubeClust
 	j := jsiiProxy_KubeClusterRole{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeClusterRole",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRole",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -6697,7 +6697,7 @@ func NewKubeClusterRole_Override(k KubeClusterRole, scope constructs.Construct, 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeClusterRole",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRole",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -6713,7 +6713,7 @@ func KubeClusterRole_Manifest(props *KubeClusterRoleProps) interface{} {
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeClusterRole",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRole",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -6734,7 +6734,7 @@ func KubeClusterRole_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeClusterRole",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRole",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -6747,7 +6747,7 @@ func KubeClusterRole_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeClusterRole",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRole",
 		"GVK",
 		&returns,
 	)
@@ -6983,7 +6983,7 @@ func NewKubeClusterRoleBinding(scope constructs.Construct, id *string, props *Ku
 	j := jsiiProxy_KubeClusterRoleBinding{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBinding",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBinding",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -6997,7 +6997,7 @@ func NewKubeClusterRoleBinding_Override(k KubeClusterRoleBinding, scope construc
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBinding",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBinding",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -7013,7 +7013,7 @@ func KubeClusterRoleBinding_Manifest(props *KubeClusterRoleBindingProps) interfa
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBinding",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBinding",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -7034,7 +7034,7 @@ func KubeClusterRoleBinding_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBinding",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBinding",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -7047,7 +7047,7 @@ func KubeClusterRoleBinding_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBinding",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBinding",
 		"GVK",
 		&returns,
 	)
@@ -7281,7 +7281,7 @@ func NewKubeClusterRoleBindingList(scope constructs.Construct, id *string, props
 	j := jsiiProxy_KubeClusterRoleBindingList{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingList",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -7295,7 +7295,7 @@ func NewKubeClusterRoleBindingList_Override(k KubeClusterRoleBindingList, scope 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingList",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -7311,7 +7311,7 @@ func KubeClusterRoleBindingList_Manifest(props *KubeClusterRoleBindingListProps)
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingList",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -7332,7 +7332,7 @@ func KubeClusterRoleBindingList_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingList",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -7345,7 +7345,7 @@ func KubeClusterRoleBindingList_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingList",
 		"GVK",
 		&returns,
 	)
@@ -7592,7 +7592,7 @@ func NewKubeClusterRoleBindingListV1Alpha1(scope constructs.Construct, id *strin
 	j := jsiiProxy_KubeClusterRoleBindingListV1Alpha1{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingListV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingListV1Alpha1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -7606,7 +7606,7 @@ func NewKubeClusterRoleBindingListV1Alpha1_Override(k KubeClusterRoleBindingList
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingListV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingListV1Alpha1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -7622,7 +7622,7 @@ func KubeClusterRoleBindingListV1Alpha1_Manifest(props *KubeClusterRoleBindingLi
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingListV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingListV1Alpha1",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -7643,7 +7643,7 @@ func KubeClusterRoleBindingListV1Alpha1_Of(c constructs.IConstruct) cdk8s.ApiObj
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingListV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingListV1Alpha1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -7656,7 +7656,7 @@ func KubeClusterRoleBindingListV1Alpha1_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingListV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingListV1Alpha1",
 		"GVK",
 		&returns,
 	)
@@ -7905,7 +7905,7 @@ func NewKubeClusterRoleBindingListV1Beta1(scope constructs.Construct, id *string
 	j := jsiiProxy_KubeClusterRoleBindingListV1Beta1{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingListV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -7919,7 +7919,7 @@ func NewKubeClusterRoleBindingListV1Beta1_Override(k KubeClusterRoleBindingListV
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingListV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -7935,7 +7935,7 @@ func KubeClusterRoleBindingListV1Beta1_Manifest(props *KubeClusterRoleBindingLis
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingListV1Beta1",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -7956,7 +7956,7 @@ func KubeClusterRoleBindingListV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObje
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingListV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -7969,7 +7969,7 @@ func KubeClusterRoleBindingListV1Beta1_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingListV1Beta1",
 		"GVK",
 		&returns,
 	)
@@ -8236,7 +8236,7 @@ func NewKubeClusterRoleBindingV1Alpha1(scope constructs.Construct, id *string, p
 	j := jsiiProxy_KubeClusterRoleBindingV1Alpha1{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingV1Alpha1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -8250,7 +8250,7 @@ func NewKubeClusterRoleBindingV1Alpha1_Override(k KubeClusterRoleBindingV1Alpha1
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingV1Alpha1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -8266,7 +8266,7 @@ func KubeClusterRoleBindingV1Alpha1_Manifest(props *KubeClusterRoleBindingV1Alph
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingV1Alpha1",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -8287,7 +8287,7 @@ func KubeClusterRoleBindingV1Alpha1_Of(c constructs.IConstruct) cdk8s.ApiObject 
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingV1Alpha1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -8300,7 +8300,7 @@ func KubeClusterRoleBindingV1Alpha1_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingV1Alpha1",
 		"GVK",
 		&returns,
 	)
@@ -8554,7 +8554,7 @@ func NewKubeClusterRoleBindingV1Beta1(scope constructs.Construct, id *string, pr
 	j := jsiiProxy_KubeClusterRoleBindingV1Beta1{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -8568,7 +8568,7 @@ func NewKubeClusterRoleBindingV1Beta1_Override(k KubeClusterRoleBindingV1Beta1, 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -8584,7 +8584,7 @@ func KubeClusterRoleBindingV1Beta1_Manifest(props *KubeClusterRoleBindingV1Beta1
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingV1Beta1",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -8605,7 +8605,7 @@ func KubeClusterRoleBindingV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -8618,7 +8618,7 @@ func KubeClusterRoleBindingV1Beta1_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingV1Beta1",
 		"GVK",
 		&returns,
 	)
@@ -8870,7 +8870,7 @@ func NewKubeClusterRoleList(scope constructs.Construct, id *string, props *KubeC
 	j := jsiiProxy_KubeClusterRoleList{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleList",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -8884,7 +8884,7 @@ func NewKubeClusterRoleList_Override(k KubeClusterRoleList, scope constructs.Con
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleList",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -8900,7 +8900,7 @@ func KubeClusterRoleList_Manifest(props *KubeClusterRoleListProps) interface{} {
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleList",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -8921,7 +8921,7 @@ func KubeClusterRoleList_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleList",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -8934,7 +8934,7 @@ func KubeClusterRoleList_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleList",
 		"GVK",
 		&returns,
 	)
@@ -9181,7 +9181,7 @@ func NewKubeClusterRoleListV1Alpha1(scope constructs.Construct, id *string, prop
 	j := jsiiProxy_KubeClusterRoleListV1Alpha1{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleListV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleListV1Alpha1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -9195,7 +9195,7 @@ func NewKubeClusterRoleListV1Alpha1_Override(k KubeClusterRoleListV1Alpha1, scop
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleListV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleListV1Alpha1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -9211,7 +9211,7 @@ func KubeClusterRoleListV1Alpha1_Manifest(props *KubeClusterRoleListV1Alpha1Prop
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleListV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleListV1Alpha1",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -9232,7 +9232,7 @@ func KubeClusterRoleListV1Alpha1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleListV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleListV1Alpha1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -9245,7 +9245,7 @@ func KubeClusterRoleListV1Alpha1_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleListV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleListV1Alpha1",
 		"GVK",
 		&returns,
 	)
@@ -9494,7 +9494,7 @@ func NewKubeClusterRoleListV1Beta1(scope constructs.Construct, id *string, props
 	j := jsiiProxy_KubeClusterRoleListV1Beta1{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleListV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -9508,7 +9508,7 @@ func NewKubeClusterRoleListV1Beta1_Override(k KubeClusterRoleListV1Beta1, scope 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleListV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -9524,7 +9524,7 @@ func KubeClusterRoleListV1Beta1_Manifest(props *KubeClusterRoleListV1Beta1Props)
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleListV1Beta1",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -9545,7 +9545,7 @@ func KubeClusterRoleListV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleListV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -9558,7 +9558,7 @@ func KubeClusterRoleListV1Beta1_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleListV1Beta1",
 		"GVK",
 		&returns,
 	)
@@ -9823,7 +9823,7 @@ func NewKubeClusterRoleV1Alpha1(scope constructs.Construct, id *string, props *K
 	j := jsiiProxy_KubeClusterRoleV1Alpha1{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleV1Alpha1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -9837,7 +9837,7 @@ func NewKubeClusterRoleV1Alpha1_Override(k KubeClusterRoleV1Alpha1, scope constr
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleV1Alpha1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -9853,7 +9853,7 @@ func KubeClusterRoleV1Alpha1_Manifest(props *KubeClusterRoleV1Alpha1Props) inter
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleV1Alpha1",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -9874,7 +9874,7 @@ func KubeClusterRoleV1Alpha1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleV1Alpha1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -9887,7 +9887,7 @@ func KubeClusterRoleV1Alpha1_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleV1Alpha1",
 		"GVK",
 		&returns,
 	)
@@ -10141,7 +10141,7 @@ func NewKubeClusterRoleV1Beta1(scope constructs.Construct, id *string, props *Ku
 	j := jsiiProxy_KubeClusterRoleV1Beta1{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -10155,7 +10155,7 @@ func NewKubeClusterRoleV1Beta1_Override(k KubeClusterRoleV1Beta1, scope construc
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -10171,7 +10171,7 @@ func KubeClusterRoleV1Beta1_Manifest(props *KubeClusterRoleV1Beta1Props) interfa
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleV1Beta1",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -10192,7 +10192,7 @@ func KubeClusterRoleV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -10205,7 +10205,7 @@ func KubeClusterRoleV1Beta1_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleV1Beta1",
 		"GVK",
 		&returns,
 	)
@@ -10459,7 +10459,7 @@ func NewKubeComponentStatus(scope constructs.Construct, id *string, props *KubeC
 	j := jsiiProxy_KubeComponentStatus{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeComponentStatus",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeComponentStatus",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -10473,7 +10473,7 @@ func NewKubeComponentStatus_Override(k KubeComponentStatus, scope constructs.Con
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeComponentStatus",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeComponentStatus",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -10489,7 +10489,7 @@ func KubeComponentStatus_Manifest(props *KubeComponentStatusProps) interface{} {
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeComponentStatus",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeComponentStatus",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -10510,7 +10510,7 @@ func KubeComponentStatus_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeComponentStatus",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeComponentStatus",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -10523,7 +10523,7 @@ func KubeComponentStatus_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeComponentStatus",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeComponentStatus",
 		"GVK",
 		&returns,
 	)
@@ -10759,7 +10759,7 @@ func NewKubeComponentStatusList(scope constructs.Construct, id *string, props *K
 	j := jsiiProxy_KubeComponentStatusList{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeComponentStatusList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeComponentStatusList",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -10773,7 +10773,7 @@ func NewKubeComponentStatusList_Override(k KubeComponentStatusList, scope constr
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeComponentStatusList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeComponentStatusList",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -10789,7 +10789,7 @@ func KubeComponentStatusList_Manifest(props *KubeComponentStatusListProps) inter
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeComponentStatusList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeComponentStatusList",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -10810,7 +10810,7 @@ func KubeComponentStatusList_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeComponentStatusList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeComponentStatusList",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -10823,7 +10823,7 @@ func KubeComponentStatusList_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeComponentStatusList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeComponentStatusList",
 		"GVK",
 		&returns,
 	)
@@ -11087,7 +11087,7 @@ func NewKubeConfigMap(scope constructs.Construct, id *string, props *KubeConfigM
 	j := jsiiProxy_KubeConfigMap{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeConfigMap",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeConfigMap",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -11101,7 +11101,7 @@ func NewKubeConfigMap_Override(k KubeConfigMap, scope constructs.Construct, id *
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeConfigMap",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeConfigMap",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -11117,7 +11117,7 @@ func KubeConfigMap_Manifest(props *KubeConfigMapProps) interface{} {
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeConfigMap",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeConfigMap",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -11138,7 +11138,7 @@ func KubeConfigMap_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeConfigMap",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeConfigMap",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -11151,7 +11151,7 @@ func KubeConfigMap_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeConfigMap",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeConfigMap",
 		"GVK",
 		&returns,
 	)
@@ -11385,7 +11385,7 @@ func NewKubeConfigMapList(scope constructs.Construct, id *string, props *KubeCon
 	j := jsiiProxy_KubeConfigMapList{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeConfigMapList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeConfigMapList",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -11399,7 +11399,7 @@ func NewKubeConfigMapList_Override(k KubeConfigMapList, scope constructs.Constru
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeConfigMapList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeConfigMapList",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -11415,7 +11415,7 @@ func KubeConfigMapList_Manifest(props *KubeConfigMapListProps) interface{} {
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeConfigMapList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeConfigMapList",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -11436,7 +11436,7 @@ func KubeConfigMapList_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeConfigMapList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeConfigMapList",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -11449,7 +11449,7 @@ func KubeConfigMapList_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeConfigMapList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeConfigMapList",
 		"GVK",
 		&returns,
 	)
@@ -11721,7 +11721,7 @@ func NewKubeControllerRevision(scope constructs.Construct, id *string, props *Ku
 	j := jsiiProxy_KubeControllerRevision{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeControllerRevision",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeControllerRevision",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -11735,7 +11735,7 @@ func NewKubeControllerRevision_Override(k KubeControllerRevision, scope construc
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeControllerRevision",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeControllerRevision",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -11751,7 +11751,7 @@ func KubeControllerRevision_Manifest(props *KubeControllerRevisionProps) interfa
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeControllerRevision",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeControllerRevision",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -11772,7 +11772,7 @@ func KubeControllerRevision_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeControllerRevision",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeControllerRevision",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -11785,7 +11785,7 @@ func KubeControllerRevision_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeControllerRevision",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeControllerRevision",
 		"GVK",
 		&returns,
 	)
@@ -12019,7 +12019,7 @@ func NewKubeControllerRevisionList(scope constructs.Construct, id *string, props
 	j := jsiiProxy_KubeControllerRevisionList{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeControllerRevisionList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeControllerRevisionList",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -12033,7 +12033,7 @@ func NewKubeControllerRevisionList_Override(k KubeControllerRevisionList, scope 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeControllerRevisionList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeControllerRevisionList",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -12049,7 +12049,7 @@ func KubeControllerRevisionList_Manifest(props *KubeControllerRevisionListProps)
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeControllerRevisionList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeControllerRevisionList",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -12070,7 +12070,7 @@ func KubeControllerRevisionList_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeControllerRevisionList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeControllerRevisionList",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -12083,7 +12083,7 @@ func KubeControllerRevisionList_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeControllerRevisionList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeControllerRevisionList",
 		"GVK",
 		&returns,
 	)
@@ -12346,7 +12346,7 @@ func NewKubeCronJob(scope constructs.Construct, id *string, props *KubeCronJobPr
 	j := jsiiProxy_KubeCronJob{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCronJob",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCronJob",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -12360,7 +12360,7 @@ func NewKubeCronJob_Override(k KubeCronJob, scope constructs.Construct, id *stri
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCronJob",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCronJob",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -12376,7 +12376,7 @@ func KubeCronJob_Manifest(props *KubeCronJobProps) interface{} {
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCronJob",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCronJob",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -12397,7 +12397,7 @@ func KubeCronJob_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCronJob",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCronJob",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -12410,7 +12410,7 @@ func KubeCronJob_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCronJob",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCronJob",
 		"GVK",
 		&returns,
 	)
@@ -12644,7 +12644,7 @@ func NewKubeCronJobList(scope constructs.Construct, id *string, props *KubeCronJ
 	j := jsiiProxy_KubeCronJobList{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCronJobList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCronJobList",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -12658,7 +12658,7 @@ func NewKubeCronJobList_Override(k KubeCronJobList, scope constructs.Construct, 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCronJobList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCronJobList",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -12674,7 +12674,7 @@ func KubeCronJobList_Manifest(props *KubeCronJobListProps) interface{} {
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCronJobList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCronJobList",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -12695,7 +12695,7 @@ func KubeCronJobList_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCronJobList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCronJobList",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -12708,7 +12708,7 @@ func KubeCronJobList_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCronJobList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCronJobList",
 		"GVK",
 		&returns,
 	)
@@ -12955,7 +12955,7 @@ func NewKubeCronJobListV1Beta1(scope constructs.Construct, id *string, props *Ku
 	j := jsiiProxy_KubeCronJobListV1Beta1{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCronJobListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCronJobListV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -12969,7 +12969,7 @@ func NewKubeCronJobListV1Beta1_Override(k KubeCronJobListV1Beta1, scope construc
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCronJobListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCronJobListV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -12985,7 +12985,7 @@ func KubeCronJobListV1Beta1_Manifest(props *KubeCronJobListV1Beta1Props) interfa
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCronJobListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCronJobListV1Beta1",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -13006,7 +13006,7 @@ func KubeCronJobListV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCronJobListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCronJobListV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -13019,7 +13019,7 @@ func KubeCronJobListV1Beta1_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCronJobListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCronJobListV1Beta1",
 		"GVK",
 		&returns,
 	)
@@ -13281,7 +13281,7 @@ func NewKubeCronJobV1Beta1(scope constructs.Construct, id *string, props *KubeCr
 	j := jsiiProxy_KubeCronJobV1Beta1{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCronJobV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCronJobV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -13295,7 +13295,7 @@ func NewKubeCronJobV1Beta1_Override(k KubeCronJobV1Beta1, scope constructs.Const
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCronJobV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCronJobV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -13311,7 +13311,7 @@ func KubeCronJobV1Beta1_Manifest(props *KubeCronJobV1Beta1Props) interface{} {
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCronJobV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCronJobV1Beta1",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -13332,7 +13332,7 @@ func KubeCronJobV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCronJobV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCronJobV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -13345,7 +13345,7 @@ func KubeCronJobV1Beta1_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCronJobV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCronJobV1Beta1",
 		"GVK",
 		&returns,
 	)
@@ -13596,7 +13596,7 @@ func NewKubeCsiDriver(scope constructs.Construct, id *string, props *KubeCsiDriv
 	j := jsiiProxy_KubeCsiDriver{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriver",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriver",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -13610,7 +13610,7 @@ func NewKubeCsiDriver_Override(k KubeCsiDriver, scope constructs.Construct, id *
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriver",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriver",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -13626,7 +13626,7 @@ func KubeCsiDriver_Manifest(props *KubeCsiDriverProps) interface{} {
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriver",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriver",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -13647,7 +13647,7 @@ func KubeCsiDriver_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriver",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriver",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -13660,7 +13660,7 @@ func KubeCsiDriver_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriver",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriver",
 		"GVK",
 		&returns,
 	)
@@ -13894,7 +13894,7 @@ func NewKubeCsiDriverList(scope constructs.Construct, id *string, props *KubeCsi
 	j := jsiiProxy_KubeCsiDriverList{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriverList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriverList",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -13908,7 +13908,7 @@ func NewKubeCsiDriverList_Override(k KubeCsiDriverList, scope constructs.Constru
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriverList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriverList",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -13924,7 +13924,7 @@ func KubeCsiDriverList_Manifest(props *KubeCsiDriverListProps) interface{} {
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriverList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriverList",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -13945,7 +13945,7 @@ func KubeCsiDriverList_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriverList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriverList",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -13958,7 +13958,7 @@ func KubeCsiDriverList_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriverList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriverList",
 		"GVK",
 		&returns,
 	)
@@ -14203,7 +14203,7 @@ func NewKubeCsiDriverListV1Beta1(scope constructs.Construct, id *string, props *
 	j := jsiiProxy_KubeCsiDriverListV1Beta1{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriverListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriverListV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -14217,7 +14217,7 @@ func NewKubeCsiDriverListV1Beta1_Override(k KubeCsiDriverListV1Beta1, scope cons
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriverListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriverListV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -14233,7 +14233,7 @@ func KubeCsiDriverListV1Beta1_Manifest(props *KubeCsiDriverListV1Beta1Props) int
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriverListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriverListV1Beta1",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -14254,7 +14254,7 @@ func KubeCsiDriverListV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriverListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriverListV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -14267,7 +14267,7 @@ func KubeCsiDriverListV1Beta1_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriverListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriverListV1Beta1",
 		"GVK",
 		&returns,
 	)
@@ -14529,7 +14529,7 @@ func NewKubeCsiDriverV1Beta1(scope constructs.Construct, id *string, props *Kube
 	j := jsiiProxy_KubeCsiDriverV1Beta1{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriverV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriverV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -14543,7 +14543,7 @@ func NewKubeCsiDriverV1Beta1_Override(k KubeCsiDriverV1Beta1, scope constructs.C
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriverV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriverV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -14559,7 +14559,7 @@ func KubeCsiDriverV1Beta1_Manifest(props *KubeCsiDriverV1Beta1Props) interface{}
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriverV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriverV1Beta1",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -14580,7 +14580,7 @@ func KubeCsiDriverV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriverV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriverV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -14593,7 +14593,7 @@ func KubeCsiDriverV1Beta1_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriverV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriverV1Beta1",
 		"GVK",
 		&returns,
 	)
@@ -14844,7 +14844,7 @@ func NewKubeCsiNode(scope constructs.Construct, id *string, props *KubeCsiNodePr
 	j := jsiiProxy_KubeCsiNode{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCsiNode",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiNode",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -14858,7 +14858,7 @@ func NewKubeCsiNode_Override(k KubeCsiNode, scope constructs.Construct, id *stri
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCsiNode",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiNode",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -14874,7 +14874,7 @@ func KubeCsiNode_Manifest(props *KubeCsiNodeProps) interface{} {
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCsiNode",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiNode",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -14895,7 +14895,7 @@ func KubeCsiNode_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCsiNode",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiNode",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -14908,7 +14908,7 @@ func KubeCsiNode_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCsiNode",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiNode",
 		"GVK",
 		&returns,
 	)
@@ -15142,7 +15142,7 @@ func NewKubeCsiNodeList(scope constructs.Construct, id *string, props *KubeCsiNo
 	j := jsiiProxy_KubeCsiNodeList{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCsiNodeList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiNodeList",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -15156,7 +15156,7 @@ func NewKubeCsiNodeList_Override(k KubeCsiNodeList, scope constructs.Construct, 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCsiNodeList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiNodeList",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -15172,7 +15172,7 @@ func KubeCsiNodeList_Manifest(props *KubeCsiNodeListProps) interface{} {
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCsiNodeList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiNodeList",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -15193,7 +15193,7 @@ func KubeCsiNodeList_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCsiNodeList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiNodeList",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -15206,7 +15206,7 @@ func KubeCsiNodeList_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCsiNodeList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiNodeList",
 		"GVK",
 		&returns,
 	)
@@ -15451,7 +15451,7 @@ func NewKubeCsiNodeListV1Beta1(scope constructs.Construct, id *string, props *Ku
 	j := jsiiProxy_KubeCsiNodeListV1Beta1{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCsiNodeListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiNodeListV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -15465,7 +15465,7 @@ func NewKubeCsiNodeListV1Beta1_Override(k KubeCsiNodeListV1Beta1, scope construc
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCsiNodeListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiNodeListV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -15481,7 +15481,7 @@ func KubeCsiNodeListV1Beta1_Manifest(props *KubeCsiNodeListV1Beta1Props) interfa
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCsiNodeListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiNodeListV1Beta1",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -15502,7 +15502,7 @@ func KubeCsiNodeListV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCsiNodeListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiNodeListV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -15515,7 +15515,7 @@ func KubeCsiNodeListV1Beta1_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCsiNodeListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiNodeListV1Beta1",
 		"GVK",
 		&returns,
 	)
@@ -15775,7 +15775,7 @@ func NewKubeCsiNodeV1Beta1(scope constructs.Construct, id *string, props *KubeCs
 	j := jsiiProxy_KubeCsiNodeV1Beta1{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCsiNodeV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiNodeV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -15789,7 +15789,7 @@ func NewKubeCsiNodeV1Beta1_Override(k KubeCsiNodeV1Beta1, scope constructs.Const
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCsiNodeV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiNodeV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -15805,7 +15805,7 @@ func KubeCsiNodeV1Beta1_Manifest(props *KubeCsiNodeV1Beta1Props) interface{} {
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCsiNodeV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiNodeV1Beta1",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -15826,7 +15826,7 @@ func KubeCsiNodeV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCsiNodeV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiNodeV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -15839,7 +15839,7 @@ func KubeCsiNodeV1Beta1_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCsiNodeV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiNodeV1Beta1",
 		"GVK",
 		&returns,
 	)
@@ -16086,7 +16086,7 @@ func NewKubeCsiStorageCapacityListV1Alpha1(scope constructs.Construct, id *strin
 	j := jsiiProxy_KubeCsiStorageCapacityListV1Alpha1{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityListV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityListV1Alpha1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -16100,7 +16100,7 @@ func NewKubeCsiStorageCapacityListV1Alpha1_Override(k KubeCsiStorageCapacityList
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityListV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityListV1Alpha1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -16116,7 +16116,7 @@ func KubeCsiStorageCapacityListV1Alpha1_Manifest(props *KubeCsiStorageCapacityLi
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityListV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityListV1Alpha1",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -16137,7 +16137,7 @@ func KubeCsiStorageCapacityListV1Alpha1_Of(c constructs.IConstruct) cdk8s.ApiObj
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityListV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityListV1Alpha1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -16150,7 +16150,7 @@ func KubeCsiStorageCapacityListV1Alpha1_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityListV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityListV1Alpha1",
 		"GVK",
 		&returns,
 	)
@@ -16395,7 +16395,7 @@ func NewKubeCsiStorageCapacityListV1Beta1(scope constructs.Construct, id *string
 	j := jsiiProxy_KubeCsiStorageCapacityListV1Beta1{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityListV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -16409,7 +16409,7 @@ func NewKubeCsiStorageCapacityListV1Beta1_Override(k KubeCsiStorageCapacityListV
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityListV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -16425,7 +16425,7 @@ func KubeCsiStorageCapacityListV1Beta1_Manifest(props *KubeCsiStorageCapacityLis
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityListV1Beta1",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -16446,7 +16446,7 @@ func KubeCsiStorageCapacityListV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObje
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityListV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -16459,7 +16459,7 @@ func KubeCsiStorageCapacityListV1Beta1_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityListV1Beta1",
 		"GVK",
 		&returns,
 	)
@@ -16714,7 +16714,7 @@ func NewKubeCsiStorageCapacityV1Alpha1(scope constructs.Construct, id *string, p
 	j := jsiiProxy_KubeCsiStorageCapacityV1Alpha1{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityV1Alpha1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -16728,7 +16728,7 @@ func NewKubeCsiStorageCapacityV1Alpha1_Override(k KubeCsiStorageCapacityV1Alpha1
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityV1Alpha1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -16744,7 +16744,7 @@ func KubeCsiStorageCapacityV1Alpha1_Manifest(props *KubeCsiStorageCapacityV1Alph
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityV1Alpha1",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -16765,7 +16765,7 @@ func KubeCsiStorageCapacityV1Alpha1_Of(c constructs.IConstruct) cdk8s.ApiObject 
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityV1Alpha1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -16778,7 +16778,7 @@ func KubeCsiStorageCapacityV1Alpha1_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityV1Alpha1",
 		"GVK",
 		&returns,
 	)
@@ -17066,7 +17066,7 @@ func NewKubeCsiStorageCapacityV1Beta1(scope constructs.Construct, id *string, pr
 	j := jsiiProxy_KubeCsiStorageCapacityV1Beta1{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -17080,7 +17080,7 @@ func NewKubeCsiStorageCapacityV1Beta1_Override(k KubeCsiStorageCapacityV1Beta1, 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -17096,7 +17096,7 @@ func KubeCsiStorageCapacityV1Beta1_Manifest(props *KubeCsiStorageCapacityV1Beta1
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityV1Beta1",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -17117,7 +17117,7 @@ func KubeCsiStorageCapacityV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -17130,7 +17130,7 @@ func KubeCsiStorageCapacityV1Beta1_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityV1Beta1",
 		"GVK",
 		&returns,
 	)
@@ -17410,7 +17410,7 @@ func NewKubeCustomResourceDefinition(scope constructs.Construct, id *string, pro
 	j := jsiiProxy_KubeCustomResourceDefinition{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinition",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinition",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -17424,7 +17424,7 @@ func NewKubeCustomResourceDefinition_Override(k KubeCustomResourceDefinition, sc
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinition",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinition",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -17440,7 +17440,7 @@ func KubeCustomResourceDefinition_Manifest(props *KubeCustomResourceDefinitionPr
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinition",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinition",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -17461,7 +17461,7 @@ func KubeCustomResourceDefinition_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinition",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinition",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -17474,7 +17474,7 @@ func KubeCustomResourceDefinition_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinition",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinition",
 		"GVK",
 		&returns,
 	)
@@ -17708,7 +17708,7 @@ func NewKubeCustomResourceDefinitionList(scope constructs.Construct, id *string,
 	j := jsiiProxy_KubeCustomResourceDefinitionList{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinitionList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinitionList",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -17722,7 +17722,7 @@ func NewKubeCustomResourceDefinitionList_Override(k KubeCustomResourceDefinition
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinitionList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinitionList",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -17738,7 +17738,7 @@ func KubeCustomResourceDefinitionList_Manifest(props *KubeCustomResourceDefiniti
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinitionList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinitionList",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -17759,7 +17759,7 @@ func KubeCustomResourceDefinitionList_Of(c constructs.IConstruct) cdk8s.ApiObjec
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinitionList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinitionList",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -17772,7 +17772,7 @@ func KubeCustomResourceDefinitionList_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinitionList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinitionList",
 		"GVK",
 		&returns,
 	)
@@ -18016,7 +18016,7 @@ func NewKubeCustomResourceDefinitionListV1Beta1(scope constructs.Construct, id *
 	j := jsiiProxy_KubeCustomResourceDefinitionListV1Beta1{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinitionListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinitionListV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -18030,7 +18030,7 @@ func NewKubeCustomResourceDefinitionListV1Beta1_Override(k KubeCustomResourceDef
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinitionListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinitionListV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -18046,7 +18046,7 @@ func KubeCustomResourceDefinitionListV1Beta1_Manifest(props *KubeCustomResourceD
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinitionListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinitionListV1Beta1",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -18067,7 +18067,7 @@ func KubeCustomResourceDefinitionListV1Beta1_Of(c constructs.IConstruct) cdk8s.A
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinitionListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinitionListV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -18080,7 +18080,7 @@ func KubeCustomResourceDefinitionListV1Beta1_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinitionListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinitionListV1Beta1",
 		"GVK",
 		&returns,
 	)
@@ -18338,7 +18338,7 @@ func NewKubeCustomResourceDefinitionV1Beta1(scope constructs.Construct, id *stri
 	j := jsiiProxy_KubeCustomResourceDefinitionV1Beta1{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinitionV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinitionV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -18352,7 +18352,7 @@ func NewKubeCustomResourceDefinitionV1Beta1_Override(k KubeCustomResourceDefinit
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinitionV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinitionV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -18368,7 +18368,7 @@ func KubeCustomResourceDefinitionV1Beta1_Manifest(props *KubeCustomResourceDefin
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinitionV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinitionV1Beta1",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -18389,7 +18389,7 @@ func KubeCustomResourceDefinitionV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiOb
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinitionV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinitionV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -18402,7 +18402,7 @@ func KubeCustomResourceDefinitionV1Beta1_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinitionV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinitionV1Beta1",
 		"GVK",
 		&returns,
 	)
@@ -18648,7 +18648,7 @@ func NewKubeDaemonSet(scope constructs.Construct, id *string, props *KubeDaemonS
 	j := jsiiProxy_KubeDaemonSet{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeDaemonSet",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeDaemonSet",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -18662,7 +18662,7 @@ func NewKubeDaemonSet_Override(k KubeDaemonSet, scope constructs.Construct, id *
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeDaemonSet",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeDaemonSet",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -18678,7 +18678,7 @@ func KubeDaemonSet_Manifest(props *KubeDaemonSetProps) interface{} {
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeDaemonSet",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeDaemonSet",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -18699,7 +18699,7 @@ func KubeDaemonSet_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeDaemonSet",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeDaemonSet",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -18712,7 +18712,7 @@ func KubeDaemonSet_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeDaemonSet",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeDaemonSet",
 		"GVK",
 		&returns,
 	)
@@ -18946,7 +18946,7 @@ func NewKubeDaemonSetList(scope constructs.Construct, id *string, props *KubeDae
 	j := jsiiProxy_KubeDaemonSetList{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeDaemonSetList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeDaemonSetList",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -18960,7 +18960,7 @@ func NewKubeDaemonSetList_Override(k KubeDaemonSetList, scope constructs.Constru
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeDaemonSetList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeDaemonSetList",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -18976,7 +18976,7 @@ func KubeDaemonSetList_Manifest(props *KubeDaemonSetListProps) interface{} {
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeDaemonSetList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeDaemonSetList",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -18997,7 +18997,7 @@ func KubeDaemonSetList_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeDaemonSetList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeDaemonSetList",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -19010,7 +19010,7 @@ func KubeDaemonSetList_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeDaemonSetList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeDaemonSetList",
 		"GVK",
 		&returns,
 	)
@@ -19272,7 +19272,7 @@ func NewKubeDeployment(scope constructs.Construct, id *string, props *KubeDeploy
 	j := jsiiProxy_KubeDeployment{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeDeployment",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeDeployment",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -19286,7 +19286,7 @@ func NewKubeDeployment_Override(k KubeDeployment, scope constructs.Construct, id
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeDeployment",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeDeployment",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -19302,7 +19302,7 @@ func KubeDeployment_Manifest(props *KubeDeploymentProps) interface{} {
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeDeployment",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeDeployment",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -19323,7 +19323,7 @@ func KubeDeployment_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeDeployment",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeDeployment",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -19336,7 +19336,7 @@ func KubeDeployment_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeDeployment",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeDeployment",
 		"GVK",
 		&returns,
 	)
@@ -19570,7 +19570,7 @@ func NewKubeDeploymentList(scope constructs.Construct, id *string, props *KubeDe
 	j := jsiiProxy_KubeDeploymentList{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeDeploymentList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeDeploymentList",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -19584,7 +19584,7 @@ func NewKubeDeploymentList_Override(k KubeDeploymentList, scope constructs.Const
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeDeploymentList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeDeploymentList",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -19600,7 +19600,7 @@ func KubeDeploymentList_Manifest(props *KubeDeploymentListProps) interface{} {
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeDeploymentList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeDeploymentList",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -19621,7 +19621,7 @@ func KubeDeploymentList_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeDeploymentList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeDeploymentList",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -19634,7 +19634,7 @@ func KubeDeploymentList_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeDeploymentList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeDeploymentList",
 		"GVK",
 		&returns,
 	)
@@ -19892,7 +19892,7 @@ func NewKubeEndpointSlice(scope constructs.Construct, id *string, props *KubeEnd
 	j := jsiiProxy_KubeEndpointSlice{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSlice",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSlice",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -19906,7 +19906,7 @@ func NewKubeEndpointSlice_Override(k KubeEndpointSlice, scope constructs.Constru
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSlice",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSlice",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -19922,7 +19922,7 @@ func KubeEndpointSlice_Manifest(props *KubeEndpointSliceProps) interface{} {
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSlice",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSlice",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -19943,7 +19943,7 @@ func KubeEndpointSlice_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSlice",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSlice",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -19956,7 +19956,7 @@ func KubeEndpointSlice_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSlice",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSlice",
 		"GVK",
 		&returns,
 	)
@@ -20190,7 +20190,7 @@ func NewKubeEndpointSliceList(scope constructs.Construct, id *string, props *Kub
 	j := jsiiProxy_KubeEndpointSliceList{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSliceList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSliceList",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -20204,7 +20204,7 @@ func NewKubeEndpointSliceList_Override(k KubeEndpointSliceList, scope constructs
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSliceList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSliceList",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -20220,7 +20220,7 @@ func KubeEndpointSliceList_Manifest(props *KubeEndpointSliceListProps) interface
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSliceList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSliceList",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -20241,7 +20241,7 @@ func KubeEndpointSliceList_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSliceList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSliceList",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -20254,7 +20254,7 @@ func KubeEndpointSliceList_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSliceList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSliceList",
 		"GVK",
 		&returns,
 	)
@@ -20499,7 +20499,7 @@ func NewKubeEndpointSliceListV1Beta1(scope constructs.Construct, id *string, pro
 	j := jsiiProxy_KubeEndpointSliceListV1Beta1{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSliceListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSliceListV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -20513,7 +20513,7 @@ func NewKubeEndpointSliceListV1Beta1_Override(k KubeEndpointSliceListV1Beta1, sc
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSliceListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSliceListV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -20529,7 +20529,7 @@ func KubeEndpointSliceListV1Beta1_Manifest(props *KubeEndpointSliceListV1Beta1Pr
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSliceListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSliceListV1Beta1",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -20550,7 +20550,7 @@ func KubeEndpointSliceListV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSliceListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSliceListV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -20563,7 +20563,7 @@ func KubeEndpointSliceListV1Beta1_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSliceListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSliceListV1Beta1",
 		"GVK",
 		&returns,
 	)
@@ -20835,7 +20835,7 @@ func NewKubeEndpointSliceV1Beta1(scope constructs.Construct, id *string, props *
 	j := jsiiProxy_KubeEndpointSliceV1Beta1{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSliceV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSliceV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -20849,7 +20849,7 @@ func NewKubeEndpointSliceV1Beta1_Override(k KubeEndpointSliceV1Beta1, scope cons
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSliceV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSliceV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -20865,7 +20865,7 @@ func KubeEndpointSliceV1Beta1_Manifest(props *KubeEndpointSliceV1Beta1Props) int
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSliceV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSliceV1Beta1",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -20886,7 +20886,7 @@ func KubeEndpointSliceV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSliceV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSliceV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -20899,7 +20899,7 @@ func KubeEndpointSliceV1Beta1_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSliceV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSliceV1Beta1",
 		"GVK",
 		&returns,
 	)
@@ -21171,7 +21171,7 @@ func NewKubeEndpoints(scope constructs.Construct, id *string, props *KubeEndpoin
 	j := jsiiProxy_KubeEndpoints{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeEndpoints",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpoints",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -21185,7 +21185,7 @@ func NewKubeEndpoints_Override(k KubeEndpoints, scope constructs.Construct, id *
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeEndpoints",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpoints",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -21201,7 +21201,7 @@ func KubeEndpoints_Manifest(props *KubeEndpointsProps) interface{} {
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeEndpoints",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpoints",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -21222,7 +21222,7 @@ func KubeEndpoints_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeEndpoints",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpoints",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -21235,7 +21235,7 @@ func KubeEndpoints_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeEndpoints",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpoints",
 		"GVK",
 		&returns,
 	)
@@ -21469,7 +21469,7 @@ func NewKubeEndpointsList(scope constructs.Construct, id *string, props *KubeEnd
 	j := jsiiProxy_KubeEndpointsList{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeEndpointsList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointsList",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -21483,7 +21483,7 @@ func NewKubeEndpointsList_Override(k KubeEndpointsList, scope constructs.Constru
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeEndpointsList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointsList",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -21499,7 +21499,7 @@ func KubeEndpointsList_Manifest(props *KubeEndpointsListProps) interface{} {
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeEndpointsList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointsList",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -21520,7 +21520,7 @@ func KubeEndpointsList_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeEndpointsList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointsList",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -21533,7 +21533,7 @@ func KubeEndpointsList_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeEndpointsList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointsList",
 		"GVK",
 		&returns,
 	)
@@ -21808,7 +21808,7 @@ func NewKubeEphemeralContainers(scope constructs.Construct, id *string, props *K
 	j := jsiiProxy_KubeEphemeralContainers{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeEphemeralContainers",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEphemeralContainers",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -21822,7 +21822,7 @@ func NewKubeEphemeralContainers_Override(k KubeEphemeralContainers, scope constr
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeEphemeralContainers",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEphemeralContainers",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -21838,7 +21838,7 @@ func KubeEphemeralContainers_Manifest(props *KubeEphemeralContainersProps) inter
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeEphemeralContainers",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEphemeralContainers",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -21859,7 +21859,7 @@ func KubeEphemeralContainers_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeEphemeralContainers",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEphemeralContainers",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -21872,7 +21872,7 @@ func KubeEphemeralContainers_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeEphemeralContainers",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEphemeralContainers",
 		"GVK",
 		&returns,
 	)
@@ -22120,7 +22120,7 @@ func NewKubeEvent(scope constructs.Construct, id *string, props *KubeEventProps)
 	j := jsiiProxy_KubeEvent{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeEvent",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEvent",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -22134,7 +22134,7 @@ func NewKubeEvent_Override(k KubeEvent, scope constructs.Construct, id *string, 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeEvent",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEvent",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -22150,7 +22150,7 @@ func KubeEvent_Manifest(props *KubeEventProps) interface{} {
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeEvent",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEvent",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -22171,7 +22171,7 @@ func KubeEvent_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeEvent",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEvent",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -22184,7 +22184,7 @@ func KubeEvent_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeEvent",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEvent",
 		"GVK",
 		&returns,
 	)
@@ -22418,7 +22418,7 @@ func NewKubeEventList(scope constructs.Construct, id *string, props *KubeEventLi
 	j := jsiiProxy_KubeEventList{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeEventList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEventList",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -22432,7 +22432,7 @@ func NewKubeEventList_Override(k KubeEventList, scope constructs.Construct, id *
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeEventList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEventList",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -22448,7 +22448,7 @@ func KubeEventList_Manifest(props *KubeEventListProps) interface{} {
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeEventList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEventList",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -22469,7 +22469,7 @@ func KubeEventList_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeEventList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEventList",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -22482,7 +22482,7 @@ func KubeEventList_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeEventList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEventList",
 		"GVK",
 		&returns,
 	)
@@ -22729,7 +22729,7 @@ func NewKubeEventListV1Beta1(scope constructs.Construct, id *string, props *Kube
 	j := jsiiProxy_KubeEventListV1Beta1{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeEventListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEventListV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -22743,7 +22743,7 @@ func NewKubeEventListV1Beta1_Override(k KubeEventListV1Beta1, scope constructs.C
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeEventListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEventListV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -22759,7 +22759,7 @@ func KubeEventListV1Beta1_Manifest(props *KubeEventListV1Beta1Props) interface{}
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeEventListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEventListV1Beta1",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -22780,7 +22780,7 @@ func KubeEventListV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeEventListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEventListV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -22793,7 +22793,7 @@ func KubeEventListV1Beta1_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeEventListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEventListV1Beta1",
 		"GVK",
 		&returns,
 	)
@@ -23110,7 +23110,7 @@ func NewKubeEventV1Beta1(scope constructs.Construct, id *string, props *KubeEven
 	j := jsiiProxy_KubeEventV1Beta1{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeEventV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEventV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -23124,7 +23124,7 @@ func NewKubeEventV1Beta1_Override(k KubeEventV1Beta1, scope constructs.Construct
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeEventV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEventV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -23140,7 +23140,7 @@ func KubeEventV1Beta1_Manifest(props *KubeEventV1Beta1Props) interface{} {
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeEventV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEventV1Beta1",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -23161,7 +23161,7 @@ func KubeEventV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeEventV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEventV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -23174,7 +23174,7 @@ func KubeEventV1Beta1_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeEventV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEventV1Beta1",
 		"GVK",
 		&returns,
 	)
@@ -23478,7 +23478,7 @@ func NewKubeEvictionV1Beta1(scope constructs.Construct, id *string, props *KubeE
 	j := jsiiProxy_KubeEvictionV1Beta1{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeEvictionV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEvictionV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -23492,7 +23492,7 @@ func NewKubeEvictionV1Beta1_Override(k KubeEvictionV1Beta1, scope constructs.Con
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeEvictionV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEvictionV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -23508,7 +23508,7 @@ func KubeEvictionV1Beta1_Manifest(props *KubeEvictionV1Beta1Props) interface{} {
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeEvictionV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEvictionV1Beta1",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -23529,7 +23529,7 @@ func KubeEvictionV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeEvictionV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEvictionV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -23542,7 +23542,7 @@ func KubeEvictionV1Beta1_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeEvictionV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEvictionV1Beta1",
 		"GVK",
 		&returns,
 	)
@@ -23789,7 +23789,7 @@ func NewKubeFlowSchemaListV1Beta1(scope constructs.Construct, id *string, props 
 	j := jsiiProxy_KubeFlowSchemaListV1Beta1{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeFlowSchemaListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeFlowSchemaListV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -23803,7 +23803,7 @@ func NewKubeFlowSchemaListV1Beta1_Override(k KubeFlowSchemaListV1Beta1, scope co
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeFlowSchemaListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeFlowSchemaListV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -23819,7 +23819,7 @@ func KubeFlowSchemaListV1Beta1_Manifest(props *KubeFlowSchemaListV1Beta1Props) i
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeFlowSchemaListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeFlowSchemaListV1Beta1",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -23840,7 +23840,7 @@ func KubeFlowSchemaListV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeFlowSchemaListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeFlowSchemaListV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -23853,7 +23853,7 @@ func KubeFlowSchemaListV1Beta1_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeFlowSchemaListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeFlowSchemaListV1Beta1",
 		"GVK",
 		&returns,
 	)
@@ -24102,7 +24102,7 @@ func NewKubeFlowSchemaV1Beta1(scope constructs.Construct, id *string, props *Kub
 	j := jsiiProxy_KubeFlowSchemaV1Beta1{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeFlowSchemaV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeFlowSchemaV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -24116,7 +24116,7 @@ func NewKubeFlowSchemaV1Beta1_Override(k KubeFlowSchemaV1Beta1, scope constructs
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeFlowSchemaV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeFlowSchemaV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -24132,7 +24132,7 @@ func KubeFlowSchemaV1Beta1_Manifest(props *KubeFlowSchemaV1Beta1Props) interface
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeFlowSchemaV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeFlowSchemaV1Beta1",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -24153,7 +24153,7 @@ func KubeFlowSchemaV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeFlowSchemaV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeFlowSchemaV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -24166,7 +24166,7 @@ func KubeFlowSchemaV1Beta1_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeFlowSchemaV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeFlowSchemaV1Beta1",
 		"GVK",
 		&returns,
 	)
@@ -24417,7 +24417,7 @@ func NewKubeHorizontalPodAutoscaler(scope constructs.Construct, id *string, prop
 	j := jsiiProxy_KubeHorizontalPodAutoscaler{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscaler",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscaler",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -24431,7 +24431,7 @@ func NewKubeHorizontalPodAutoscaler_Override(k KubeHorizontalPodAutoscaler, scop
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscaler",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscaler",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -24447,7 +24447,7 @@ func KubeHorizontalPodAutoscaler_Manifest(props *KubeHorizontalPodAutoscalerProp
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscaler",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscaler",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -24468,7 +24468,7 @@ func KubeHorizontalPodAutoscaler_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscaler",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscaler",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -24481,7 +24481,7 @@ func KubeHorizontalPodAutoscaler_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscaler",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscaler",
 		"GVK",
 		&returns,
 	)
@@ -24715,7 +24715,7 @@ func NewKubeHorizontalPodAutoscalerList(scope constructs.Construct, id *string, 
 	j := jsiiProxy_KubeHorizontalPodAutoscalerList{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerList",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -24729,7 +24729,7 @@ func NewKubeHorizontalPodAutoscalerList_Override(k KubeHorizontalPodAutoscalerLi
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerList",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -24745,7 +24745,7 @@ func KubeHorizontalPodAutoscalerList_Manifest(props *KubeHorizontalPodAutoscaler
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerList",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -24766,7 +24766,7 @@ func KubeHorizontalPodAutoscalerList_Of(c constructs.IConstruct) cdk8s.ApiObject
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerList",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -24779,7 +24779,7 @@ func KubeHorizontalPodAutoscalerList_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerList",
 		"GVK",
 		&returns,
 	)
@@ -25024,7 +25024,7 @@ func NewKubeHorizontalPodAutoscalerListV2Beta1(scope constructs.Construct, id *s
 	j := jsiiProxy_KubeHorizontalPodAutoscalerListV2Beta1{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerListV2Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerListV2Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -25038,7 +25038,7 @@ func NewKubeHorizontalPodAutoscalerListV2Beta1_Override(k KubeHorizontalPodAutos
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerListV2Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerListV2Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -25054,7 +25054,7 @@ func KubeHorizontalPodAutoscalerListV2Beta1_Manifest(props *KubeHorizontalPodAut
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerListV2Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerListV2Beta1",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -25075,7 +25075,7 @@ func KubeHorizontalPodAutoscalerListV2Beta1_Of(c constructs.IConstruct) cdk8s.Ap
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerListV2Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerListV2Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -25088,7 +25088,7 @@ func KubeHorizontalPodAutoscalerListV2Beta1_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerListV2Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerListV2Beta1",
 		"GVK",
 		&returns,
 	)
@@ -25333,7 +25333,7 @@ func NewKubeHorizontalPodAutoscalerListV2Beta2(scope constructs.Construct, id *s
 	j := jsiiProxy_KubeHorizontalPodAutoscalerListV2Beta2{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerListV2Beta2",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerListV2Beta2",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -25347,7 +25347,7 @@ func NewKubeHorizontalPodAutoscalerListV2Beta2_Override(k KubeHorizontalPodAutos
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerListV2Beta2",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerListV2Beta2",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -25363,7 +25363,7 @@ func KubeHorizontalPodAutoscalerListV2Beta2_Manifest(props *KubeHorizontalPodAut
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerListV2Beta2",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerListV2Beta2",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -25384,7 +25384,7 @@ func KubeHorizontalPodAutoscalerListV2Beta2_Of(c constructs.IConstruct) cdk8s.Ap
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerListV2Beta2",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerListV2Beta2",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -25397,7 +25397,7 @@ func KubeHorizontalPodAutoscalerListV2Beta2_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerListV2Beta2",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerListV2Beta2",
 		"GVK",
 		&returns,
 	)
@@ -25657,7 +25657,7 @@ func NewKubeHorizontalPodAutoscalerV2Beta1(scope constructs.Construct, id *strin
 	j := jsiiProxy_KubeHorizontalPodAutoscalerV2Beta1{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerV2Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerV2Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -25671,7 +25671,7 @@ func NewKubeHorizontalPodAutoscalerV2Beta1_Override(k KubeHorizontalPodAutoscale
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerV2Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerV2Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -25687,7 +25687,7 @@ func KubeHorizontalPodAutoscalerV2Beta1_Manifest(props *KubeHorizontalPodAutosca
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerV2Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerV2Beta1",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -25708,7 +25708,7 @@ func KubeHorizontalPodAutoscalerV2Beta1_Of(c constructs.IConstruct) cdk8s.ApiObj
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerV2Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerV2Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -25721,7 +25721,7 @@ func KubeHorizontalPodAutoscalerV2Beta1_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerV2Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerV2Beta1",
 		"GVK",
 		&returns,
 	)
@@ -25970,7 +25970,7 @@ func NewKubeHorizontalPodAutoscalerV2Beta2(scope constructs.Construct, id *strin
 	j := jsiiProxy_KubeHorizontalPodAutoscalerV2Beta2{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerV2Beta2",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerV2Beta2",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -25984,7 +25984,7 @@ func NewKubeHorizontalPodAutoscalerV2Beta2_Override(k KubeHorizontalPodAutoscale
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerV2Beta2",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerV2Beta2",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -26000,7 +26000,7 @@ func KubeHorizontalPodAutoscalerV2Beta2_Manifest(props *KubeHorizontalPodAutosca
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerV2Beta2",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerV2Beta2",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -26021,7 +26021,7 @@ func KubeHorizontalPodAutoscalerV2Beta2_Of(c constructs.IConstruct) cdk8s.ApiObj
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerV2Beta2",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerV2Beta2",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -26034,7 +26034,7 @@ func KubeHorizontalPodAutoscalerV2Beta2_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerV2Beta2",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerV2Beta2",
 		"GVK",
 		&returns,
 	)
@@ -26285,7 +26285,7 @@ func NewKubeIngress(scope constructs.Construct, id *string, props *KubeIngressPr
 	j := jsiiProxy_KubeIngress{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeIngress",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngress",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -26299,7 +26299,7 @@ func NewKubeIngress_Override(k KubeIngress, scope constructs.Construct, id *stri
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeIngress",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngress",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -26315,7 +26315,7 @@ func KubeIngress_Manifest(props *KubeIngressProps) interface{} {
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeIngress",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngress",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -26336,7 +26336,7 @@ func KubeIngress_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeIngress",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngress",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -26349,7 +26349,7 @@ func KubeIngress_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeIngress",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngress",
 		"GVK",
 		&returns,
 	)
@@ -26585,7 +26585,7 @@ func NewKubeIngressClass(scope constructs.Construct, id *string, props *KubeIngr
 	j := jsiiProxy_KubeIngressClass{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeIngressClass",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressClass",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -26599,7 +26599,7 @@ func NewKubeIngressClass_Override(k KubeIngressClass, scope constructs.Construct
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeIngressClass",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressClass",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -26615,7 +26615,7 @@ func KubeIngressClass_Manifest(props *KubeIngressClassProps) interface{} {
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeIngressClass",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressClass",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -26636,7 +26636,7 @@ func KubeIngressClass_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeIngressClass",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressClass",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -26649,7 +26649,7 @@ func KubeIngressClass_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeIngressClass",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressClass",
 		"GVK",
 		&returns,
 	)
@@ -26883,7 +26883,7 @@ func NewKubeIngressClassList(scope constructs.Construct, id *string, props *Kube
 	j := jsiiProxy_KubeIngressClassList{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeIngressClassList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressClassList",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -26897,7 +26897,7 @@ func NewKubeIngressClassList_Override(k KubeIngressClassList, scope constructs.C
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeIngressClassList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressClassList",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -26913,7 +26913,7 @@ func KubeIngressClassList_Manifest(props *KubeIngressClassListProps) interface{}
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeIngressClassList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressClassList",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -26934,7 +26934,7 @@ func KubeIngressClassList_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeIngressClassList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressClassList",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -26947,7 +26947,7 @@ func KubeIngressClassList_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeIngressClassList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressClassList",
 		"GVK",
 		&returns,
 	)
@@ -27192,7 +27192,7 @@ func NewKubeIngressClassListV1Beta1(scope constructs.Construct, id *string, prop
 	j := jsiiProxy_KubeIngressClassListV1Beta1{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeIngressClassListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressClassListV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -27206,7 +27206,7 @@ func NewKubeIngressClassListV1Beta1_Override(k KubeIngressClassListV1Beta1, scop
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeIngressClassListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressClassListV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -27222,7 +27222,7 @@ func KubeIngressClassListV1Beta1_Manifest(props *KubeIngressClassListV1Beta1Prop
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeIngressClassListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressClassListV1Beta1",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -27243,7 +27243,7 @@ func KubeIngressClassListV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeIngressClassListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressClassListV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -27256,7 +27256,7 @@ func KubeIngressClassListV1Beta1_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeIngressClassListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressClassListV1Beta1",
 		"GVK",
 		&returns,
 	)
@@ -27520,7 +27520,7 @@ func NewKubeIngressClassV1Beta1(scope constructs.Construct, id *string, props *K
 	j := jsiiProxy_KubeIngressClassV1Beta1{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeIngressClassV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressClassV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -27534,7 +27534,7 @@ func NewKubeIngressClassV1Beta1_Override(k KubeIngressClassV1Beta1, scope constr
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeIngressClassV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressClassV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -27550,7 +27550,7 @@ func KubeIngressClassV1Beta1_Manifest(props *KubeIngressClassV1Beta1Props) inter
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeIngressClassV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressClassV1Beta1",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -27571,7 +27571,7 @@ func KubeIngressClassV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeIngressClassV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressClassV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -27584,7 +27584,7 @@ func KubeIngressClassV1Beta1_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeIngressClassV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressClassV1Beta1",
 		"GVK",
 		&returns,
 	)
@@ -27835,7 +27835,7 @@ func NewKubeIngressList(scope constructs.Construct, id *string, props *KubeIngre
 	j := jsiiProxy_KubeIngressList{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeIngressList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressList",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -27849,7 +27849,7 @@ func NewKubeIngressList_Override(k KubeIngressList, scope constructs.Construct, 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeIngressList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressList",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -27865,7 +27865,7 @@ func KubeIngressList_Manifest(props *KubeIngressListProps) interface{} {
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeIngressList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressList",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -27886,7 +27886,7 @@ func KubeIngressList_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeIngressList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressList",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -27899,7 +27899,7 @@ func KubeIngressList_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeIngressList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressList",
 		"GVK",
 		&returns,
 	)
@@ -28146,7 +28146,7 @@ func NewKubeIngressListV1Beta1(scope constructs.Construct, id *string, props *Ku
 	j := jsiiProxy_KubeIngressListV1Beta1{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeIngressListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressListV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -28160,7 +28160,7 @@ func NewKubeIngressListV1Beta1_Override(k KubeIngressListV1Beta1, scope construc
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeIngressListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressListV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -28176,7 +28176,7 @@ func KubeIngressListV1Beta1_Manifest(props *KubeIngressListV1Beta1Props) interfa
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeIngressListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressListV1Beta1",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -28197,7 +28197,7 @@ func KubeIngressListV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeIngressListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressListV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -28210,7 +28210,7 @@ func KubeIngressListV1Beta1_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeIngressListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressListV1Beta1",
 		"GVK",
 		&returns,
 	)
@@ -28476,7 +28476,7 @@ func NewKubeIngressV1Beta1(scope constructs.Construct, id *string, props *KubeIn
 	j := jsiiProxy_KubeIngressV1Beta1{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeIngressV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -28490,7 +28490,7 @@ func NewKubeIngressV1Beta1_Override(k KubeIngressV1Beta1, scope constructs.Const
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeIngressV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -28506,7 +28506,7 @@ func KubeIngressV1Beta1_Manifest(props *KubeIngressV1Beta1Props) interface{} {
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeIngressV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressV1Beta1",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -28527,7 +28527,7 @@ func KubeIngressV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeIngressV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -28540,7 +28540,7 @@ func KubeIngressV1Beta1_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeIngressV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressV1Beta1",
 		"GVK",
 		&returns,
 	)
@@ -28791,7 +28791,7 @@ func NewKubeJob(scope constructs.Construct, id *string, props *KubeJobProps) Kub
 	j := jsiiProxy_KubeJob{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeJob",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeJob",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -28805,7 +28805,7 @@ func NewKubeJob_Override(k KubeJob, scope constructs.Construct, id *string, prop
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeJob",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeJob",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -28821,7 +28821,7 @@ func KubeJob_Manifest(props *KubeJobProps) interface{} {
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeJob",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeJob",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -28842,7 +28842,7 @@ func KubeJob_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeJob",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeJob",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -28855,7 +28855,7 @@ func KubeJob_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeJob",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeJob",
 		"GVK",
 		&returns,
 	)
@@ -29089,7 +29089,7 @@ func NewKubeJobList(scope constructs.Construct, id *string, props *KubeJobListPr
 	j := jsiiProxy_KubeJobList{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeJobList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeJobList",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -29103,7 +29103,7 @@ func NewKubeJobList_Override(k KubeJobList, scope constructs.Construct, id *stri
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeJobList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeJobList",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -29119,7 +29119,7 @@ func KubeJobList_Manifest(props *KubeJobListProps) interface{} {
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeJobList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeJobList",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -29140,7 +29140,7 @@ func KubeJobList_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeJobList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeJobList",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -29153,7 +29153,7 @@ func KubeJobList_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeJobList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeJobList",
 		"GVK",
 		&returns,
 	)
@@ -29415,7 +29415,7 @@ func NewKubeLease(scope constructs.Construct, id *string, props *KubeLeaseProps)
 	j := jsiiProxy_KubeLease{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeLease",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLease",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -29429,7 +29429,7 @@ func NewKubeLease_Override(k KubeLease, scope constructs.Construct, id *string, 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeLease",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLease",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -29445,7 +29445,7 @@ func KubeLease_Manifest(props *KubeLeaseProps) interface{} {
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeLease",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLease",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -29466,7 +29466,7 @@ func KubeLease_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeLease",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLease",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -29479,7 +29479,7 @@ func KubeLease_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeLease",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLease",
 		"GVK",
 		&returns,
 	)
@@ -29713,7 +29713,7 @@ func NewKubeLeaseList(scope constructs.Construct, id *string, props *KubeLeaseLi
 	j := jsiiProxy_KubeLeaseList{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeLeaseList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLeaseList",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -29727,7 +29727,7 @@ func NewKubeLeaseList_Override(k KubeLeaseList, scope constructs.Construct, id *
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeLeaseList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLeaseList",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -29743,7 +29743,7 @@ func KubeLeaseList_Manifest(props *KubeLeaseListProps) interface{} {
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeLeaseList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLeaseList",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -29764,7 +29764,7 @@ func KubeLeaseList_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeLeaseList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLeaseList",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -29777,7 +29777,7 @@ func KubeLeaseList_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeLeaseList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLeaseList",
 		"GVK",
 		&returns,
 	)
@@ -30024,7 +30024,7 @@ func NewKubeLeaseListV1Beta1(scope constructs.Construct, id *string, props *Kube
 	j := jsiiProxy_KubeLeaseListV1Beta1{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeLeaseListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLeaseListV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -30038,7 +30038,7 @@ func NewKubeLeaseListV1Beta1_Override(k KubeLeaseListV1Beta1, scope constructs.C
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeLeaseListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLeaseListV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -30054,7 +30054,7 @@ func KubeLeaseListV1Beta1_Manifest(props *KubeLeaseListV1Beta1Props) interface{}
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeLeaseListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLeaseListV1Beta1",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -30075,7 +30075,7 @@ func KubeLeaseListV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeLeaseListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLeaseListV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -30088,7 +30088,7 @@ func KubeLeaseListV1Beta1_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeLeaseListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLeaseListV1Beta1",
 		"GVK",
 		&returns,
 	)
@@ -30348,7 +30348,7 @@ func NewKubeLeaseV1Beta1(scope constructs.Construct, id *string, props *KubeLeas
 	j := jsiiProxy_KubeLeaseV1Beta1{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeLeaseV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLeaseV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -30362,7 +30362,7 @@ func NewKubeLeaseV1Beta1_Override(k KubeLeaseV1Beta1, scope constructs.Construct
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeLeaseV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLeaseV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -30378,7 +30378,7 @@ func KubeLeaseV1Beta1_Manifest(props *KubeLeaseV1Beta1Props) interface{} {
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeLeaseV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLeaseV1Beta1",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -30399,7 +30399,7 @@ func KubeLeaseV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeLeaseV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLeaseV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -30412,7 +30412,7 @@ func KubeLeaseV1Beta1_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeLeaseV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLeaseV1Beta1",
 		"GVK",
 		&returns,
 	)
@@ -30659,7 +30659,7 @@ func NewKubeLimitRange(scope constructs.Construct, id *string, props *KubeLimitR
 	j := jsiiProxy_KubeLimitRange{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeLimitRange",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLimitRange",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -30673,7 +30673,7 @@ func NewKubeLimitRange_Override(k KubeLimitRange, scope constructs.Construct, id
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeLimitRange",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLimitRange",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -30689,7 +30689,7 @@ func KubeLimitRange_Manifest(props *KubeLimitRangeProps) interface{} {
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeLimitRange",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLimitRange",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -30710,7 +30710,7 @@ func KubeLimitRange_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeLimitRange",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLimitRange",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -30723,7 +30723,7 @@ func KubeLimitRange_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeLimitRange",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLimitRange",
 		"GVK",
 		&returns,
 	)
@@ -30957,7 +30957,7 @@ func NewKubeLimitRangeList(scope constructs.Construct, id *string, props *KubeLi
 	j := jsiiProxy_KubeLimitRangeList{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeLimitRangeList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLimitRangeList",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -30971,7 +30971,7 @@ func NewKubeLimitRangeList_Override(k KubeLimitRangeList, scope constructs.Const
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeLimitRangeList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLimitRangeList",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -30987,7 +30987,7 @@ func KubeLimitRangeList_Manifest(props *KubeLimitRangeListProps) interface{} {
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeLimitRangeList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLimitRangeList",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -31008,7 +31008,7 @@ func KubeLimitRangeList_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeLimitRangeList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLimitRangeList",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -31021,7 +31021,7 @@ func KubeLimitRangeList_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeLimitRangeList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLimitRangeList",
 		"GVK",
 		&returns,
 	)
@@ -31287,7 +31287,7 @@ func NewKubeLocalSubjectAccessReview(scope constructs.Construct, id *string, pro
 	j := jsiiProxy_KubeLocalSubjectAccessReview{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeLocalSubjectAccessReview",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLocalSubjectAccessReview",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -31301,7 +31301,7 @@ func NewKubeLocalSubjectAccessReview_Override(k KubeLocalSubjectAccessReview, sc
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeLocalSubjectAccessReview",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLocalSubjectAccessReview",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -31317,7 +31317,7 @@ func KubeLocalSubjectAccessReview_Manifest(props *KubeLocalSubjectAccessReviewPr
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeLocalSubjectAccessReview",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLocalSubjectAccessReview",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -31338,7 +31338,7 @@ func KubeLocalSubjectAccessReview_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeLocalSubjectAccessReview",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLocalSubjectAccessReview",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -31351,7 +31351,7 @@ func KubeLocalSubjectAccessReview_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeLocalSubjectAccessReview",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLocalSubjectAccessReview",
 		"GVK",
 		&returns,
 	)
@@ -31601,7 +31601,7 @@ func NewKubeLocalSubjectAccessReviewV1Beta1(scope constructs.Construct, id *stri
 	j := jsiiProxy_KubeLocalSubjectAccessReviewV1Beta1{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeLocalSubjectAccessReviewV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLocalSubjectAccessReviewV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -31615,7 +31615,7 @@ func NewKubeLocalSubjectAccessReviewV1Beta1_Override(k KubeLocalSubjectAccessRev
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeLocalSubjectAccessReviewV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLocalSubjectAccessReviewV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -31631,7 +31631,7 @@ func KubeLocalSubjectAccessReviewV1Beta1_Manifest(props *KubeLocalSubjectAccessR
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeLocalSubjectAccessReviewV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLocalSubjectAccessReviewV1Beta1",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -31652,7 +31652,7 @@ func KubeLocalSubjectAccessReviewV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiOb
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeLocalSubjectAccessReviewV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLocalSubjectAccessReviewV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -31665,7 +31665,7 @@ func KubeLocalSubjectAccessReviewV1Beta1_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeLocalSubjectAccessReviewV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLocalSubjectAccessReviewV1Beta1",
 		"GVK",
 		&returns,
 	)
@@ -31913,7 +31913,7 @@ func NewKubeMutatingWebhookConfiguration(scope constructs.Construct, id *string,
 	j := jsiiProxy_KubeMutatingWebhookConfiguration{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfiguration",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfiguration",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -31927,7 +31927,7 @@ func NewKubeMutatingWebhookConfiguration_Override(k KubeMutatingWebhookConfigura
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfiguration",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfiguration",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -31943,7 +31943,7 @@ func KubeMutatingWebhookConfiguration_Manifest(props *KubeMutatingWebhookConfigu
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfiguration",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfiguration",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -31964,7 +31964,7 @@ func KubeMutatingWebhookConfiguration_Of(c constructs.IConstruct) cdk8s.ApiObjec
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfiguration",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfiguration",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -31977,7 +31977,7 @@ func KubeMutatingWebhookConfiguration_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfiguration",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfiguration",
 		"GVK",
 		&returns,
 	)
@@ -32211,7 +32211,7 @@ func NewKubeMutatingWebhookConfigurationList(scope constructs.Construct, id *str
 	j := jsiiProxy_KubeMutatingWebhookConfigurationList{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfigurationList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfigurationList",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -32225,7 +32225,7 @@ func NewKubeMutatingWebhookConfigurationList_Override(k KubeMutatingWebhookConfi
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfigurationList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfigurationList",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -32241,7 +32241,7 @@ func KubeMutatingWebhookConfigurationList_Manifest(props *KubeMutatingWebhookCon
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfigurationList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfigurationList",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -32262,7 +32262,7 @@ func KubeMutatingWebhookConfigurationList_Of(c constructs.IConstruct) cdk8s.ApiO
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfigurationList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfigurationList",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -32275,7 +32275,7 @@ func KubeMutatingWebhookConfigurationList_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfigurationList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfigurationList",
 		"GVK",
 		&returns,
 	)
@@ -32522,7 +32522,7 @@ func NewKubeMutatingWebhookConfigurationListV1Beta1(scope constructs.Construct, 
 	j := jsiiProxy_KubeMutatingWebhookConfigurationListV1Beta1{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfigurationListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfigurationListV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -32536,7 +32536,7 @@ func NewKubeMutatingWebhookConfigurationListV1Beta1_Override(k KubeMutatingWebho
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfigurationListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfigurationListV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -32552,7 +32552,7 @@ func KubeMutatingWebhookConfigurationListV1Beta1_Manifest(props *KubeMutatingWeb
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfigurationListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfigurationListV1Beta1",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -32573,7 +32573,7 @@ func KubeMutatingWebhookConfigurationListV1Beta1_Of(c constructs.IConstruct) cdk
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfigurationListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfigurationListV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -32586,7 +32586,7 @@ func KubeMutatingWebhookConfigurationListV1Beta1_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfigurationListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfigurationListV1Beta1",
 		"GVK",
 		&returns,
 	)
@@ -32848,7 +32848,7 @@ func NewKubeMutatingWebhookConfigurationV1Beta1(scope constructs.Construct, id *
 	j := jsiiProxy_KubeMutatingWebhookConfigurationV1Beta1{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfigurationV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfigurationV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -32862,7 +32862,7 @@ func NewKubeMutatingWebhookConfigurationV1Beta1_Override(k KubeMutatingWebhookCo
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfigurationV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfigurationV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -32878,7 +32878,7 @@ func KubeMutatingWebhookConfigurationV1Beta1_Manifest(props *KubeMutatingWebhook
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfigurationV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfigurationV1Beta1",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -32899,7 +32899,7 @@ func KubeMutatingWebhookConfigurationV1Beta1_Of(c constructs.IConstruct) cdk8s.A
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfigurationV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfigurationV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -32912,7 +32912,7 @@ func KubeMutatingWebhookConfigurationV1Beta1_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfigurationV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfigurationV1Beta1",
 		"GVK",
 		&returns,
 	)
@@ -33163,7 +33163,7 @@ func NewKubeNamespace(scope constructs.Construct, id *string, props *KubeNamespa
 	j := jsiiProxy_KubeNamespace{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeNamespace",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNamespace",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -33177,7 +33177,7 @@ func NewKubeNamespace_Override(k KubeNamespace, scope constructs.Construct, id *
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeNamespace",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNamespace",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -33193,7 +33193,7 @@ func KubeNamespace_Manifest(props *KubeNamespaceProps) interface{} {
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeNamespace",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNamespace",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -33214,7 +33214,7 @@ func KubeNamespace_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeNamespace",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNamespace",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -33227,7 +33227,7 @@ func KubeNamespace_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeNamespace",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNamespace",
 		"GVK",
 		&returns,
 	)
@@ -33461,7 +33461,7 @@ func NewKubeNamespaceList(scope constructs.Construct, id *string, props *KubeNam
 	j := jsiiProxy_KubeNamespaceList{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeNamespaceList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNamespaceList",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -33475,7 +33475,7 @@ func NewKubeNamespaceList_Override(k KubeNamespaceList, scope constructs.Constru
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeNamespaceList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNamespaceList",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -33491,7 +33491,7 @@ func KubeNamespaceList_Manifest(props *KubeNamespaceListProps) interface{} {
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeNamespaceList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNamespaceList",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -33512,7 +33512,7 @@ func KubeNamespaceList_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeNamespaceList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNamespaceList",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -33525,7 +33525,7 @@ func KubeNamespaceList_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeNamespaceList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNamespaceList",
 		"GVK",
 		&returns,
 	)
@@ -33791,7 +33791,7 @@ func NewKubeNetworkPolicy(scope constructs.Construct, id *string, props *KubeNet
 	j := jsiiProxy_KubeNetworkPolicy{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeNetworkPolicy",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNetworkPolicy",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -33805,7 +33805,7 @@ func NewKubeNetworkPolicy_Override(k KubeNetworkPolicy, scope constructs.Constru
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeNetworkPolicy",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNetworkPolicy",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -33821,7 +33821,7 @@ func KubeNetworkPolicy_Manifest(props *KubeNetworkPolicyProps) interface{} {
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeNetworkPolicy",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNetworkPolicy",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -33842,7 +33842,7 @@ func KubeNetworkPolicy_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeNetworkPolicy",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNetworkPolicy",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -33855,7 +33855,7 @@ func KubeNetworkPolicy_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeNetworkPolicy",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNetworkPolicy",
 		"GVK",
 		&returns,
 	)
@@ -34089,7 +34089,7 @@ func NewKubeNetworkPolicyList(scope constructs.Construct, id *string, props *Kub
 	j := jsiiProxy_KubeNetworkPolicyList{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeNetworkPolicyList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNetworkPolicyList",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -34103,7 +34103,7 @@ func NewKubeNetworkPolicyList_Override(k KubeNetworkPolicyList, scope constructs
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeNetworkPolicyList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNetworkPolicyList",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -34119,7 +34119,7 @@ func KubeNetworkPolicyList_Manifest(props *KubeNetworkPolicyListProps) interface
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeNetworkPolicyList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNetworkPolicyList",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -34140,7 +34140,7 @@ func KubeNetworkPolicyList_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeNetworkPolicyList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNetworkPolicyList",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -34153,7 +34153,7 @@ func KubeNetworkPolicyList_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeNetworkPolicyList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNetworkPolicyList",
 		"GVK",
 		&returns,
 	)
@@ -34415,7 +34415,7 @@ func NewKubeNode(scope constructs.Construct, id *string, props *KubeNodeProps) K
 	j := jsiiProxy_KubeNode{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeNode",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNode",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -34429,7 +34429,7 @@ func NewKubeNode_Override(k KubeNode, scope constructs.Construct, id *string, pr
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeNode",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNode",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -34445,7 +34445,7 @@ func KubeNode_Manifest(props *KubeNodeProps) interface{} {
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeNode",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNode",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -34466,7 +34466,7 @@ func KubeNode_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeNode",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNode",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -34479,7 +34479,7 @@ func KubeNode_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeNode",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNode",
 		"GVK",
 		&returns,
 	)
@@ -34713,7 +34713,7 @@ func NewKubeNodeList(scope constructs.Construct, id *string, props *KubeNodeList
 	j := jsiiProxy_KubeNodeList{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeNodeList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNodeList",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -34727,7 +34727,7 @@ func NewKubeNodeList_Override(k KubeNodeList, scope constructs.Construct, id *st
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeNodeList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNodeList",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -34743,7 +34743,7 @@ func KubeNodeList_Manifest(props *KubeNodeListProps) interface{} {
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeNodeList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNodeList",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -34764,7 +34764,7 @@ func KubeNodeList_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeNodeList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNodeList",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -34777,7 +34777,7 @@ func KubeNodeList_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeNodeList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNodeList",
 		"GVK",
 		&returns,
 	)
@@ -35043,7 +35043,7 @@ func NewKubePersistentVolume(scope constructs.Construct, id *string, props *Kube
 	j := jsiiProxy_KubePersistentVolume{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolume",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolume",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -35057,7 +35057,7 @@ func NewKubePersistentVolume_Override(k KubePersistentVolume, scope constructs.C
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolume",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolume",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -35073,7 +35073,7 @@ func KubePersistentVolume_Manifest(props *KubePersistentVolumeProps) interface{}
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolume",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolume",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -35094,7 +35094,7 @@ func KubePersistentVolume_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolume",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolume",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -35107,7 +35107,7 @@ func KubePersistentVolume_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolume",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolume",
 		"GVK",
 		&returns,
 	)
@@ -35341,7 +35341,7 @@ func NewKubePersistentVolumeClaim(scope constructs.Construct, id *string, props 
 	j := jsiiProxy_KubePersistentVolumeClaim{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolumeClaim",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolumeClaim",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -35355,7 +35355,7 @@ func NewKubePersistentVolumeClaim_Override(k KubePersistentVolumeClaim, scope co
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolumeClaim",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolumeClaim",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -35371,7 +35371,7 @@ func KubePersistentVolumeClaim_Manifest(props *KubePersistentVolumeClaimProps) i
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolumeClaim",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolumeClaim",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -35392,7 +35392,7 @@ func KubePersistentVolumeClaim_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolumeClaim",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolumeClaim",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -35405,7 +35405,7 @@ func KubePersistentVolumeClaim_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolumeClaim",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolumeClaim",
 		"GVK",
 		&returns,
 	)
@@ -35639,7 +35639,7 @@ func NewKubePersistentVolumeClaimList(scope constructs.Construct, id *string, pr
 	j := jsiiProxy_KubePersistentVolumeClaimList{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolumeClaimList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolumeClaimList",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -35653,7 +35653,7 @@ func NewKubePersistentVolumeClaimList_Override(k KubePersistentVolumeClaimList, 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolumeClaimList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolumeClaimList",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -35669,7 +35669,7 @@ func KubePersistentVolumeClaimList_Manifest(props *KubePersistentVolumeClaimList
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolumeClaimList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolumeClaimList",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -35690,7 +35690,7 @@ func KubePersistentVolumeClaimList_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolumeClaimList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolumeClaimList",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -35703,7 +35703,7 @@ func KubePersistentVolumeClaimList_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolumeClaimList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolumeClaimList",
 		"GVK",
 		&returns,
 	)
@@ -35967,7 +35967,7 @@ func NewKubePersistentVolumeList(scope constructs.Construct, id *string, props *
 	j := jsiiProxy_KubePersistentVolumeList{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolumeList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolumeList",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -35981,7 +35981,7 @@ func NewKubePersistentVolumeList_Override(k KubePersistentVolumeList, scope cons
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolumeList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolumeList",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -35997,7 +35997,7 @@ func KubePersistentVolumeList_Manifest(props *KubePersistentVolumeListProps) int
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolumeList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolumeList",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -36018,7 +36018,7 @@ func KubePersistentVolumeList_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolumeList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolumeList",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -36031,7 +36031,7 @@ func KubePersistentVolumeList_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolumeList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolumeList",
 		"GVK",
 		&returns,
 	)
@@ -36299,7 +36299,7 @@ func NewKubePod(scope constructs.Construct, id *string, props *KubePodProps) Kub
 	j := jsiiProxy_KubePod{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePod",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePod",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -36313,7 +36313,7 @@ func NewKubePod_Override(k KubePod, scope constructs.Construct, id *string, prop
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePod",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePod",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -36329,7 +36329,7 @@ func KubePod_Manifest(props *KubePodProps) interface{} {
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePod",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePod",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -36350,7 +36350,7 @@ func KubePod_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePod",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePod",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -36363,7 +36363,7 @@ func KubePod_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePod",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePod",
 		"GVK",
 		&returns,
 	)
@@ -36597,7 +36597,7 @@ func NewKubePodDisruptionBudget(scope constructs.Construct, id *string, props *K
 	j := jsiiProxy_KubePodDisruptionBudget{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudget",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudget",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -36611,7 +36611,7 @@ func NewKubePodDisruptionBudget_Override(k KubePodDisruptionBudget, scope constr
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudget",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudget",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -36627,7 +36627,7 @@ func KubePodDisruptionBudget_Manifest(props *KubePodDisruptionBudgetProps) inter
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudget",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudget",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -36648,7 +36648,7 @@ func KubePodDisruptionBudget_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudget",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudget",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -36661,7 +36661,7 @@ func KubePodDisruptionBudget_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudget",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudget",
 		"GVK",
 		&returns,
 	)
@@ -36895,7 +36895,7 @@ func NewKubePodDisruptionBudgetList(scope constructs.Construct, id *string, prop
 	j := jsiiProxy_KubePodDisruptionBudgetList{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudgetList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudgetList",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -36909,7 +36909,7 @@ func NewKubePodDisruptionBudgetList_Override(k KubePodDisruptionBudgetList, scop
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudgetList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudgetList",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -36925,7 +36925,7 @@ func KubePodDisruptionBudgetList_Manifest(props *KubePodDisruptionBudgetListProp
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudgetList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudgetList",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -36946,7 +36946,7 @@ func KubePodDisruptionBudgetList_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudgetList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudgetList",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -36959,7 +36959,7 @@ func KubePodDisruptionBudgetList_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudgetList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudgetList",
 		"GVK",
 		&returns,
 	)
@@ -37206,7 +37206,7 @@ func NewKubePodDisruptionBudgetListV1Beta1(scope constructs.Construct, id *strin
 	j := jsiiProxy_KubePodDisruptionBudgetListV1Beta1{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudgetListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudgetListV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -37220,7 +37220,7 @@ func NewKubePodDisruptionBudgetListV1Beta1_Override(k KubePodDisruptionBudgetLis
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudgetListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudgetListV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -37236,7 +37236,7 @@ func KubePodDisruptionBudgetListV1Beta1_Manifest(props *KubePodDisruptionBudgetL
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudgetListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudgetListV1Beta1",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -37257,7 +37257,7 @@ func KubePodDisruptionBudgetListV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObj
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudgetListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudgetListV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -37270,7 +37270,7 @@ func KubePodDisruptionBudgetListV1Beta1_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudgetListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudgetListV1Beta1",
 		"GVK",
 		&returns,
 	)
@@ -37526,7 +37526,7 @@ func NewKubePodDisruptionBudgetV1Beta1(scope constructs.Construct, id *string, p
 	j := jsiiProxy_KubePodDisruptionBudgetV1Beta1{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudgetV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudgetV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -37540,7 +37540,7 @@ func NewKubePodDisruptionBudgetV1Beta1_Override(k KubePodDisruptionBudgetV1Beta1
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudgetV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudgetV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -37556,7 +37556,7 @@ func KubePodDisruptionBudgetV1Beta1_Manifest(props *KubePodDisruptionBudgetV1Bet
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudgetV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudgetV1Beta1",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -37577,7 +37577,7 @@ func KubePodDisruptionBudgetV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObject 
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudgetV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudgetV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -37590,7 +37590,7 @@ func KubePodDisruptionBudgetV1Beta1_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudgetV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudgetV1Beta1",
 		"GVK",
 		&returns,
 	)
@@ -37834,7 +37834,7 @@ func NewKubePodList(scope constructs.Construct, id *string, props *KubePodListPr
 	j := jsiiProxy_KubePodList{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePodList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodList",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -37848,7 +37848,7 @@ func NewKubePodList_Override(k KubePodList, scope constructs.Construct, id *stri
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePodList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodList",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -37864,7 +37864,7 @@ func KubePodList_Manifest(props *KubePodListProps) interface{} {
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePodList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodList",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -37885,7 +37885,7 @@ func KubePodList_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePodList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodList",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -37898,7 +37898,7 @@ func KubePodList_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePodList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodList",
 		"GVK",
 		&returns,
 	)
@@ -38164,7 +38164,7 @@ func NewKubePodSecurityPolicyListV1Beta1(scope constructs.Construct, id *string,
 	j := jsiiProxy_KubePodSecurityPolicyListV1Beta1{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePodSecurityPolicyListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodSecurityPolicyListV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -38178,7 +38178,7 @@ func NewKubePodSecurityPolicyListV1Beta1_Override(k KubePodSecurityPolicyListV1B
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePodSecurityPolicyListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodSecurityPolicyListV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -38194,7 +38194,7 @@ func KubePodSecurityPolicyListV1Beta1_Manifest(props *KubePodSecurityPolicyListV
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePodSecurityPolicyListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodSecurityPolicyListV1Beta1",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -38215,7 +38215,7 @@ func KubePodSecurityPolicyListV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObjec
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePodSecurityPolicyListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodSecurityPolicyListV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -38228,7 +38228,7 @@ func KubePodSecurityPolicyListV1Beta1_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePodSecurityPolicyListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodSecurityPolicyListV1Beta1",
 		"GVK",
 		&returns,
 	)
@@ -38477,7 +38477,7 @@ func NewKubePodSecurityPolicyV1Beta1(scope constructs.Construct, id *string, pro
 	j := jsiiProxy_KubePodSecurityPolicyV1Beta1{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePodSecurityPolicyV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodSecurityPolicyV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -38491,7 +38491,7 @@ func NewKubePodSecurityPolicyV1Beta1_Override(k KubePodSecurityPolicyV1Beta1, sc
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePodSecurityPolicyV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodSecurityPolicyV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -38507,7 +38507,7 @@ func KubePodSecurityPolicyV1Beta1_Manifest(props *KubePodSecurityPolicyV1Beta1Pr
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePodSecurityPolicyV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodSecurityPolicyV1Beta1",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -38528,7 +38528,7 @@ func KubePodSecurityPolicyV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePodSecurityPolicyV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodSecurityPolicyV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -38541,7 +38541,7 @@ func KubePodSecurityPolicyV1Beta1_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePodSecurityPolicyV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodSecurityPolicyV1Beta1",
 		"GVK",
 		&returns,
 	)
@@ -38790,7 +38790,7 @@ func NewKubePodTemplate(scope constructs.Construct, id *string, props *KubePodTe
 	j := jsiiProxy_KubePodTemplate{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePodTemplate",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodTemplate",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -38804,7 +38804,7 @@ func NewKubePodTemplate_Override(k KubePodTemplate, scope constructs.Construct, 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePodTemplate",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodTemplate",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -38820,7 +38820,7 @@ func KubePodTemplate_Manifest(props *KubePodTemplateProps) interface{} {
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePodTemplate",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodTemplate",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -38841,7 +38841,7 @@ func KubePodTemplate_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePodTemplate",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodTemplate",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -38854,7 +38854,7 @@ func KubePodTemplate_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePodTemplate",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodTemplate",
 		"GVK",
 		&returns,
 	)
@@ -39088,7 +39088,7 @@ func NewKubePodTemplateList(scope constructs.Construct, id *string, props *KubeP
 	j := jsiiProxy_KubePodTemplateList{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePodTemplateList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodTemplateList",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -39102,7 +39102,7 @@ func NewKubePodTemplateList_Override(k KubePodTemplateList, scope constructs.Con
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePodTemplateList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodTemplateList",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -39118,7 +39118,7 @@ func KubePodTemplateList_Manifest(props *KubePodTemplateListProps) interface{} {
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePodTemplateList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodTemplateList",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -39139,7 +39139,7 @@ func KubePodTemplateList_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePodTemplateList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodTemplateList",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -39152,7 +39152,7 @@ func KubePodTemplateList_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePodTemplateList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodTemplateList",
 		"GVK",
 		&returns,
 	)
@@ -39416,7 +39416,7 @@ func NewKubePriorityClass(scope constructs.Construct, id *string, props *KubePri
 	j := jsiiProxy_KubePriorityClass{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePriorityClass",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClass",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -39430,7 +39430,7 @@ func NewKubePriorityClass_Override(k KubePriorityClass, scope constructs.Constru
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePriorityClass",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClass",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -39446,7 +39446,7 @@ func KubePriorityClass_Manifest(props *KubePriorityClassProps) interface{} {
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePriorityClass",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClass",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -39467,7 +39467,7 @@ func KubePriorityClass_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePriorityClass",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClass",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -39480,7 +39480,7 @@ func KubePriorityClass_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePriorityClass",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClass",
 		"GVK",
 		&returns,
 	)
@@ -39714,7 +39714,7 @@ func NewKubePriorityClassList(scope constructs.Construct, id *string, props *Kub
 	j := jsiiProxy_KubePriorityClassList{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassList",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -39728,7 +39728,7 @@ func NewKubePriorityClassList_Override(k KubePriorityClassList, scope constructs
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassList",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -39744,7 +39744,7 @@ func KubePriorityClassList_Manifest(props *KubePriorityClassListProps) interface
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassList",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -39765,7 +39765,7 @@ func KubePriorityClassList_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassList",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -39778,7 +39778,7 @@ func KubePriorityClassList_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassList",
 		"GVK",
 		&returns,
 	)
@@ -40023,7 +40023,7 @@ func NewKubePriorityClassListV1Alpha1(scope constructs.Construct, id *string, pr
 	j := jsiiProxy_KubePriorityClassListV1Alpha1{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassListV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassListV1Alpha1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -40037,7 +40037,7 @@ func NewKubePriorityClassListV1Alpha1_Override(k KubePriorityClassListV1Alpha1, 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassListV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassListV1Alpha1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -40053,7 +40053,7 @@ func KubePriorityClassListV1Alpha1_Manifest(props *KubePriorityClassListV1Alpha1
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassListV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassListV1Alpha1",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -40074,7 +40074,7 @@ func KubePriorityClassListV1Alpha1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassListV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassListV1Alpha1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -40087,7 +40087,7 @@ func KubePriorityClassListV1Alpha1_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassListV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassListV1Alpha1",
 		"GVK",
 		&returns,
 	)
@@ -40332,7 +40332,7 @@ func NewKubePriorityClassListV1Beta1(scope constructs.Construct, id *string, pro
 	j := jsiiProxy_KubePriorityClassListV1Beta1{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassListV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -40346,7 +40346,7 @@ func NewKubePriorityClassListV1Beta1_Override(k KubePriorityClassListV1Beta1, sc
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassListV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -40362,7 +40362,7 @@ func KubePriorityClassListV1Beta1_Manifest(props *KubePriorityClassListV1Beta1Pr
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassListV1Beta1",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -40383,7 +40383,7 @@ func KubePriorityClassListV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassListV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -40396,7 +40396,7 @@ func KubePriorityClassListV1Beta1_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassListV1Beta1",
 		"GVK",
 		&returns,
 	)
@@ -40671,7 +40671,7 @@ func NewKubePriorityClassV1Alpha1(scope constructs.Construct, id *string, props 
 	j := jsiiProxy_KubePriorityClassV1Alpha1{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassV1Alpha1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -40685,7 +40685,7 @@ func NewKubePriorityClassV1Alpha1_Override(k KubePriorityClassV1Alpha1, scope co
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassV1Alpha1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -40701,7 +40701,7 @@ func KubePriorityClassV1Alpha1_Manifest(props *KubePriorityClassV1Alpha1Props) i
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassV1Alpha1",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -40722,7 +40722,7 @@ func KubePriorityClassV1Alpha1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassV1Alpha1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -40735,7 +40735,7 @@ func KubePriorityClassV1Alpha1_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassV1Alpha1",
 		"GVK",
 		&returns,
 	)
@@ -40997,7 +40997,7 @@ func NewKubePriorityClassV1Beta1(scope constructs.Construct, id *string, props *
 	j := jsiiProxy_KubePriorityClassV1Beta1{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -41011,7 +41011,7 @@ func NewKubePriorityClassV1Beta1_Override(k KubePriorityClassV1Beta1, scope cons
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -41027,7 +41027,7 @@ func KubePriorityClassV1Beta1_Manifest(props *KubePriorityClassV1Beta1Props) int
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassV1Beta1",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -41048,7 +41048,7 @@ func KubePriorityClassV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -41061,7 +41061,7 @@ func KubePriorityClassV1Beta1_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassV1Beta1",
 		"GVK",
 		&returns,
 	)
@@ -41323,7 +41323,7 @@ func NewKubePriorityLevelConfigurationListV1Beta1(scope constructs.Construct, id
 	j := jsiiProxy_KubePriorityLevelConfigurationListV1Beta1{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePriorityLevelConfigurationListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityLevelConfigurationListV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -41337,7 +41337,7 @@ func NewKubePriorityLevelConfigurationListV1Beta1_Override(k KubePriorityLevelCo
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePriorityLevelConfigurationListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityLevelConfigurationListV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -41353,7 +41353,7 @@ func KubePriorityLevelConfigurationListV1Beta1_Manifest(props *KubePriorityLevel
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePriorityLevelConfigurationListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityLevelConfigurationListV1Beta1",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -41374,7 +41374,7 @@ func KubePriorityLevelConfigurationListV1Beta1_Of(c constructs.IConstruct) cdk8s
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePriorityLevelConfigurationListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityLevelConfigurationListV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -41387,7 +41387,7 @@ func KubePriorityLevelConfigurationListV1Beta1_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePriorityLevelConfigurationListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityLevelConfigurationListV1Beta1",
 		"GVK",
 		&returns,
 	)
@@ -41634,7 +41634,7 @@ func NewKubePriorityLevelConfigurationV1Beta1(scope constructs.Construct, id *st
 	j := jsiiProxy_KubePriorityLevelConfigurationV1Beta1{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePriorityLevelConfigurationV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityLevelConfigurationV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -41648,7 +41648,7 @@ func NewKubePriorityLevelConfigurationV1Beta1_Override(k KubePriorityLevelConfig
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePriorityLevelConfigurationV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityLevelConfigurationV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -41664,7 +41664,7 @@ func KubePriorityLevelConfigurationV1Beta1_Manifest(props *KubePriorityLevelConf
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePriorityLevelConfigurationV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityLevelConfigurationV1Beta1",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -41685,7 +41685,7 @@ func KubePriorityLevelConfigurationV1Beta1_Of(c constructs.IConstruct) cdk8s.Api
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePriorityLevelConfigurationV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityLevelConfigurationV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -41698,7 +41698,7 @@ func KubePriorityLevelConfigurationV1Beta1_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubePriorityLevelConfigurationV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityLevelConfigurationV1Beta1",
 		"GVK",
 		&returns,
 	)
@@ -41947,7 +41947,7 @@ func NewKubeReplicaSet(scope constructs.Construct, id *string, props *KubeReplic
 	j := jsiiProxy_KubeReplicaSet{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeReplicaSet",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeReplicaSet",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -41961,7 +41961,7 @@ func NewKubeReplicaSet_Override(k KubeReplicaSet, scope constructs.Construct, id
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeReplicaSet",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeReplicaSet",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -41977,7 +41977,7 @@ func KubeReplicaSet_Manifest(props *KubeReplicaSetProps) interface{} {
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeReplicaSet",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeReplicaSet",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -41998,7 +41998,7 @@ func KubeReplicaSet_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeReplicaSet",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeReplicaSet",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -42011,7 +42011,7 @@ func KubeReplicaSet_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeReplicaSet",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeReplicaSet",
 		"GVK",
 		&returns,
 	)
@@ -42245,7 +42245,7 @@ func NewKubeReplicaSetList(scope constructs.Construct, id *string, props *KubeRe
 	j := jsiiProxy_KubeReplicaSetList{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeReplicaSetList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeReplicaSetList",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -42259,7 +42259,7 @@ func NewKubeReplicaSetList_Override(k KubeReplicaSetList, scope constructs.Const
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeReplicaSetList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeReplicaSetList",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -42275,7 +42275,7 @@ func KubeReplicaSetList_Manifest(props *KubeReplicaSetListProps) interface{} {
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeReplicaSetList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeReplicaSetList",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -42296,7 +42296,7 @@ func KubeReplicaSetList_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeReplicaSetList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeReplicaSetList",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -42309,7 +42309,7 @@ func KubeReplicaSetList_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeReplicaSetList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeReplicaSetList",
 		"GVK",
 		&returns,
 	)
@@ -42573,7 +42573,7 @@ func NewKubeReplicationController(scope constructs.Construct, id *string, props 
 	j := jsiiProxy_KubeReplicationController{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeReplicationController",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeReplicationController",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -42587,7 +42587,7 @@ func NewKubeReplicationController_Override(k KubeReplicationController, scope co
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeReplicationController",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeReplicationController",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -42603,7 +42603,7 @@ func KubeReplicationController_Manifest(props *KubeReplicationControllerProps) i
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeReplicationController",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeReplicationController",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -42624,7 +42624,7 @@ func KubeReplicationController_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeReplicationController",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeReplicationController",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -42637,7 +42637,7 @@ func KubeReplicationController_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeReplicationController",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeReplicationController",
 		"GVK",
 		&returns,
 	)
@@ -42871,7 +42871,7 @@ func NewKubeReplicationControllerList(scope constructs.Construct, id *string, pr
 	j := jsiiProxy_KubeReplicationControllerList{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeReplicationControllerList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeReplicationControllerList",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -42885,7 +42885,7 @@ func NewKubeReplicationControllerList_Override(k KubeReplicationControllerList, 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeReplicationControllerList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeReplicationControllerList",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -42901,7 +42901,7 @@ func KubeReplicationControllerList_Manifest(props *KubeReplicationControllerList
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeReplicationControllerList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeReplicationControllerList",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -42922,7 +42922,7 @@ func KubeReplicationControllerList_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeReplicationControllerList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeReplicationControllerList",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -42935,7 +42935,7 @@ func KubeReplicationControllerList_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeReplicationControllerList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeReplicationControllerList",
 		"GVK",
 		&returns,
 	)
@@ -43199,7 +43199,7 @@ func NewKubeResourceQuota(scope constructs.Construct, id *string, props *KubeRes
 	j := jsiiProxy_KubeResourceQuota{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeResourceQuota",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeResourceQuota",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -43213,7 +43213,7 @@ func NewKubeResourceQuota_Override(k KubeResourceQuota, scope constructs.Constru
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeResourceQuota",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeResourceQuota",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -43229,7 +43229,7 @@ func KubeResourceQuota_Manifest(props *KubeResourceQuotaProps) interface{} {
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeResourceQuota",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeResourceQuota",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -43250,7 +43250,7 @@ func KubeResourceQuota_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeResourceQuota",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeResourceQuota",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -43263,7 +43263,7 @@ func KubeResourceQuota_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeResourceQuota",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeResourceQuota",
 		"GVK",
 		&returns,
 	)
@@ -43497,7 +43497,7 @@ func NewKubeResourceQuotaList(scope constructs.Construct, id *string, props *Kub
 	j := jsiiProxy_KubeResourceQuotaList{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeResourceQuotaList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeResourceQuotaList",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -43511,7 +43511,7 @@ func NewKubeResourceQuotaList_Override(k KubeResourceQuotaList, scope constructs
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeResourceQuotaList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeResourceQuotaList",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -43527,7 +43527,7 @@ func KubeResourceQuotaList_Manifest(props *KubeResourceQuotaListProps) interface
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeResourceQuotaList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeResourceQuotaList",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -43548,7 +43548,7 @@ func KubeResourceQuotaList_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeResourceQuotaList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeResourceQuotaList",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -43561,7 +43561,7 @@ func KubeResourceQuotaList_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeResourceQuotaList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeResourceQuotaList",
 		"GVK",
 		&returns,
 	)
@@ -43825,7 +43825,7 @@ func NewKubeRole(scope constructs.Construct, id *string, props *KubeRoleProps) K
 	j := jsiiProxy_KubeRole{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRole",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRole",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -43839,7 +43839,7 @@ func NewKubeRole_Override(k KubeRole, scope constructs.Construct, id *string, pr
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRole",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRole",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -43855,7 +43855,7 @@ func KubeRole_Manifest(props *KubeRoleProps) interface{} {
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRole",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRole",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -43876,7 +43876,7 @@ func KubeRole_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRole",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRole",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -43889,7 +43889,7 @@ func KubeRole_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRole",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRole",
 		"GVK",
 		&returns,
 	)
@@ -44125,7 +44125,7 @@ func NewKubeRoleBinding(scope constructs.Construct, id *string, props *KubeRoleB
 	j := jsiiProxy_KubeRoleBinding{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRoleBinding",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBinding",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -44139,7 +44139,7 @@ func NewKubeRoleBinding_Override(k KubeRoleBinding, scope constructs.Construct, 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRoleBinding",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBinding",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -44155,7 +44155,7 @@ func KubeRoleBinding_Manifest(props *KubeRoleBindingProps) interface{} {
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRoleBinding",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBinding",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -44176,7 +44176,7 @@ func KubeRoleBinding_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRoleBinding",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBinding",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -44189,7 +44189,7 @@ func KubeRoleBinding_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRoleBinding",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBinding",
 		"GVK",
 		&returns,
 	)
@@ -44423,7 +44423,7 @@ func NewKubeRoleBindingList(scope constructs.Construct, id *string, props *KubeR
 	j := jsiiProxy_KubeRoleBindingList{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingList",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -44437,7 +44437,7 @@ func NewKubeRoleBindingList_Override(k KubeRoleBindingList, scope constructs.Con
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingList",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -44453,7 +44453,7 @@ func KubeRoleBindingList_Manifest(props *KubeRoleBindingListProps) interface{} {
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingList",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -44474,7 +44474,7 @@ func KubeRoleBindingList_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingList",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -44487,7 +44487,7 @@ func KubeRoleBindingList_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingList",
 		"GVK",
 		&returns,
 	)
@@ -44732,7 +44732,7 @@ func NewKubeRoleBindingListV1Alpha1(scope constructs.Construct, id *string, prop
 	j := jsiiProxy_KubeRoleBindingListV1Alpha1{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingListV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingListV1Alpha1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -44746,7 +44746,7 @@ func NewKubeRoleBindingListV1Alpha1_Override(k KubeRoleBindingListV1Alpha1, scop
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingListV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingListV1Alpha1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -44762,7 +44762,7 @@ func KubeRoleBindingListV1Alpha1_Manifest(props *KubeRoleBindingListV1Alpha1Prop
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingListV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingListV1Alpha1",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -44783,7 +44783,7 @@ func KubeRoleBindingListV1Alpha1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingListV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingListV1Alpha1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -44796,7 +44796,7 @@ func KubeRoleBindingListV1Alpha1_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingListV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingListV1Alpha1",
 		"GVK",
 		&returns,
 	)
@@ -45041,7 +45041,7 @@ func NewKubeRoleBindingListV1Beta1(scope constructs.Construct, id *string, props
 	j := jsiiProxy_KubeRoleBindingListV1Beta1{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingListV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -45055,7 +45055,7 @@ func NewKubeRoleBindingListV1Beta1_Override(k KubeRoleBindingListV1Beta1, scope 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingListV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -45071,7 +45071,7 @@ func KubeRoleBindingListV1Beta1_Manifest(props *KubeRoleBindingListV1Beta1Props)
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingListV1Beta1",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -45092,7 +45092,7 @@ func KubeRoleBindingListV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingListV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -45105,7 +45105,7 @@ func KubeRoleBindingListV1Beta1_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingListV1Beta1",
 		"GVK",
 		&returns,
 	)
@@ -45370,7 +45370,7 @@ func NewKubeRoleBindingV1Alpha1(scope constructs.Construct, id *string, props *K
 	j := jsiiProxy_KubeRoleBindingV1Alpha1{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingV1Alpha1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -45384,7 +45384,7 @@ func NewKubeRoleBindingV1Alpha1_Override(k KubeRoleBindingV1Alpha1, scope constr
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingV1Alpha1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -45400,7 +45400,7 @@ func KubeRoleBindingV1Alpha1_Manifest(props *KubeRoleBindingV1Alpha1Props) inter
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingV1Alpha1",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -45421,7 +45421,7 @@ func KubeRoleBindingV1Alpha1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingV1Alpha1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -45434,7 +45434,7 @@ func KubeRoleBindingV1Alpha1_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingV1Alpha1",
 		"GVK",
 		&returns,
 	)
@@ -45688,7 +45688,7 @@ func NewKubeRoleBindingV1Beta1(scope constructs.Construct, id *string, props *Ku
 	j := jsiiProxy_KubeRoleBindingV1Beta1{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -45702,7 +45702,7 @@ func NewKubeRoleBindingV1Beta1_Override(k KubeRoleBindingV1Beta1, scope construc
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -45718,7 +45718,7 @@ func KubeRoleBindingV1Beta1_Manifest(props *KubeRoleBindingV1Beta1Props) interfa
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingV1Beta1",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -45739,7 +45739,7 @@ func KubeRoleBindingV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -45752,7 +45752,7 @@ func KubeRoleBindingV1Beta1_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingV1Beta1",
 		"GVK",
 		&returns,
 	)
@@ -46004,7 +46004,7 @@ func NewKubeRoleList(scope constructs.Construct, id *string, props *KubeRoleList
 	j := jsiiProxy_KubeRoleList{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRoleList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleList",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -46018,7 +46018,7 @@ func NewKubeRoleList_Override(k KubeRoleList, scope constructs.Construct, id *st
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRoleList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleList",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -46034,7 +46034,7 @@ func KubeRoleList_Manifest(props *KubeRoleListProps) interface{} {
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRoleList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleList",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -46055,7 +46055,7 @@ func KubeRoleList_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRoleList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleList",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -46068,7 +46068,7 @@ func KubeRoleList_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRoleList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleList",
 		"GVK",
 		&returns,
 	)
@@ -46315,7 +46315,7 @@ func NewKubeRoleListV1Alpha1(scope constructs.Construct, id *string, props *Kube
 	j := jsiiProxy_KubeRoleListV1Alpha1{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRoleListV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleListV1Alpha1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -46329,7 +46329,7 @@ func NewKubeRoleListV1Alpha1_Override(k KubeRoleListV1Alpha1, scope constructs.C
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRoleListV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleListV1Alpha1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -46345,7 +46345,7 @@ func KubeRoleListV1Alpha1_Manifest(props *KubeRoleListV1Alpha1Props) interface{}
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRoleListV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleListV1Alpha1",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -46366,7 +46366,7 @@ func KubeRoleListV1Alpha1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRoleListV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleListV1Alpha1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -46379,7 +46379,7 @@ func KubeRoleListV1Alpha1_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRoleListV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleListV1Alpha1",
 		"GVK",
 		&returns,
 	)
@@ -46626,7 +46626,7 @@ func NewKubeRoleListV1Beta1(scope constructs.Construct, id *string, props *KubeR
 	j := jsiiProxy_KubeRoleListV1Beta1{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRoleListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleListV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -46640,7 +46640,7 @@ func NewKubeRoleListV1Beta1_Override(k KubeRoleListV1Beta1, scope constructs.Con
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRoleListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleListV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -46656,7 +46656,7 @@ func KubeRoleListV1Beta1_Manifest(props *KubeRoleListV1Beta1Props) interface{} {
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRoleListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleListV1Beta1",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -46677,7 +46677,7 @@ func KubeRoleListV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRoleListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleListV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -46690,7 +46690,7 @@ func KubeRoleListV1Beta1_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRoleListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleListV1Beta1",
 		"GVK",
 		&returns,
 	)
@@ -46948,7 +46948,7 @@ func NewKubeRoleV1Alpha1(scope constructs.Construct, id *string, props *KubeRole
 	j := jsiiProxy_KubeRoleV1Alpha1{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRoleV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleV1Alpha1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -46962,7 +46962,7 @@ func NewKubeRoleV1Alpha1_Override(k KubeRoleV1Alpha1, scope constructs.Construct
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRoleV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleV1Alpha1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -46978,7 +46978,7 @@ func KubeRoleV1Alpha1_Manifest(props *KubeRoleV1Alpha1Props) interface{} {
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRoleV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleV1Alpha1",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -46999,7 +46999,7 @@ func KubeRoleV1Alpha1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRoleV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleV1Alpha1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -47012,7 +47012,7 @@ func KubeRoleV1Alpha1_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRoleV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleV1Alpha1",
 		"GVK",
 		&returns,
 	)
@@ -47261,7 +47261,7 @@ func NewKubeRoleV1Beta1(scope constructs.Construct, id *string, props *KubeRoleV
 	j := jsiiProxy_KubeRoleV1Beta1{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRoleV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -47275,7 +47275,7 @@ func NewKubeRoleV1Beta1_Override(k KubeRoleV1Beta1, scope constructs.Construct, 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRoleV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -47291,7 +47291,7 @@ func KubeRoleV1Beta1_Manifest(props *KubeRoleV1Beta1Props) interface{} {
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRoleV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleV1Beta1",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -47312,7 +47312,7 @@ func KubeRoleV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRoleV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -47325,7 +47325,7 @@ func KubeRoleV1Beta1_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRoleV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleV1Beta1",
 		"GVK",
 		&returns,
 	)
@@ -47574,7 +47574,7 @@ func NewKubeRuntimeClass(scope constructs.Construct, id *string, props *KubeRunt
 	j := jsiiProxy_KubeRuntimeClass{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClass",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClass",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -47588,7 +47588,7 @@ func NewKubeRuntimeClass_Override(k KubeRuntimeClass, scope constructs.Construct
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClass",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClass",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -47604,7 +47604,7 @@ func KubeRuntimeClass_Manifest(props *KubeRuntimeClassProps) interface{} {
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClass",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClass",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -47625,7 +47625,7 @@ func KubeRuntimeClass_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClass",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClass",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -47638,7 +47638,7 @@ func KubeRuntimeClass_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClass",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClass",
 		"GVK",
 		&returns,
 	)
@@ -47872,7 +47872,7 @@ func NewKubeRuntimeClassList(scope constructs.Construct, id *string, props *Kube
 	j := jsiiProxy_KubeRuntimeClassList{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassList",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -47886,7 +47886,7 @@ func NewKubeRuntimeClassList_Override(k KubeRuntimeClassList, scope constructs.C
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassList",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -47902,7 +47902,7 @@ func KubeRuntimeClassList_Manifest(props *KubeRuntimeClassListProps) interface{}
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassList",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -47923,7 +47923,7 @@ func KubeRuntimeClassList_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassList",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -47936,7 +47936,7 @@ func KubeRuntimeClassList_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassList",
 		"GVK",
 		&returns,
 	)
@@ -48183,7 +48183,7 @@ func NewKubeRuntimeClassListV1Alpha1(scope constructs.Construct, id *string, pro
 	j := jsiiProxy_KubeRuntimeClassListV1Alpha1{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassListV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassListV1Alpha1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -48197,7 +48197,7 @@ func NewKubeRuntimeClassListV1Alpha1_Override(k KubeRuntimeClassListV1Alpha1, sc
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassListV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassListV1Alpha1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -48213,7 +48213,7 @@ func KubeRuntimeClassListV1Alpha1_Manifest(props *KubeRuntimeClassListV1Alpha1Pr
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassListV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassListV1Alpha1",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -48234,7 +48234,7 @@ func KubeRuntimeClassListV1Alpha1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassListV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassListV1Alpha1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -48247,7 +48247,7 @@ func KubeRuntimeClassListV1Alpha1_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassListV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassListV1Alpha1",
 		"GVK",
 		&returns,
 	)
@@ -48494,7 +48494,7 @@ func NewKubeRuntimeClassListV1Beta1(scope constructs.Construct, id *string, prop
 	j := jsiiProxy_KubeRuntimeClassListV1Beta1{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassListV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -48508,7 +48508,7 @@ func NewKubeRuntimeClassListV1Beta1_Override(k KubeRuntimeClassListV1Beta1, scop
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassListV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -48524,7 +48524,7 @@ func KubeRuntimeClassListV1Beta1_Manifest(props *KubeRuntimeClassListV1Beta1Prop
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassListV1Beta1",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -48545,7 +48545,7 @@ func KubeRuntimeClassListV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassListV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -48558,7 +48558,7 @@ func KubeRuntimeClassListV1Beta1_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassListV1Beta1",
 		"GVK",
 		&returns,
 	)
@@ -48834,7 +48834,7 @@ func NewKubeRuntimeClassV1Alpha1(scope constructs.Construct, id *string, props *
 	j := jsiiProxy_KubeRuntimeClassV1Alpha1{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassV1Alpha1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -48848,7 +48848,7 @@ func NewKubeRuntimeClassV1Alpha1_Override(k KubeRuntimeClassV1Alpha1, scope cons
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassV1Alpha1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -48864,7 +48864,7 @@ func KubeRuntimeClassV1Alpha1_Manifest(props *KubeRuntimeClassV1Alpha1Props) int
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassV1Alpha1",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -48885,7 +48885,7 @@ func KubeRuntimeClassV1Alpha1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassV1Alpha1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -48898,7 +48898,7 @@ func KubeRuntimeClassV1Alpha1_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassV1Alpha1",
 		"GVK",
 		&returns,
 	)
@@ -49147,7 +49147,7 @@ func NewKubeRuntimeClassV1Beta1(scope constructs.Construct, id *string, props *K
 	j := jsiiProxy_KubeRuntimeClassV1Beta1{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -49161,7 +49161,7 @@ func NewKubeRuntimeClassV1Beta1_Override(k KubeRuntimeClassV1Beta1, scope constr
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -49177,7 +49177,7 @@ func KubeRuntimeClassV1Beta1_Manifest(props *KubeRuntimeClassV1Beta1Props) inter
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassV1Beta1",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -49198,7 +49198,7 @@ func KubeRuntimeClassV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -49211,7 +49211,7 @@ func KubeRuntimeClassV1Beta1_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassV1Beta1",
 		"GVK",
 		&returns,
 	)
@@ -49470,7 +49470,7 @@ func NewKubeScale(scope constructs.Construct, id *string, props *KubeScaleProps)
 	j := jsiiProxy_KubeScale{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeScale",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeScale",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -49484,7 +49484,7 @@ func NewKubeScale_Override(k KubeScale, scope constructs.Construct, id *string, 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeScale",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeScale",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -49500,7 +49500,7 @@ func KubeScale_Manifest(props *KubeScaleProps) interface{} {
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeScale",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeScale",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -49521,7 +49521,7 @@ func KubeScale_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeScale",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeScale",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -49534,7 +49534,7 @@ func KubeScale_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeScale",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeScale",
 		"GVK",
 		&returns,
 	)
@@ -49785,7 +49785,7 @@ func NewKubeSecret(scope constructs.Construct, id *string, props *KubeSecretProp
 	j := jsiiProxy_KubeSecret{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeSecret",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSecret",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -49799,7 +49799,7 @@ func NewKubeSecret_Override(k KubeSecret, scope constructs.Construct, id *string
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeSecret",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSecret",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -49815,7 +49815,7 @@ func KubeSecret_Manifest(props *KubeSecretProps) interface{} {
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeSecret",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSecret",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -49836,7 +49836,7 @@ func KubeSecret_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeSecret",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSecret",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -49849,7 +49849,7 @@ func KubeSecret_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeSecret",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSecret",
 		"GVK",
 		&returns,
 	)
@@ -50083,7 +50083,7 @@ func NewKubeSecretList(scope constructs.Construct, id *string, props *KubeSecret
 	j := jsiiProxy_KubeSecretList{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeSecretList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSecretList",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -50097,7 +50097,7 @@ func NewKubeSecretList_Override(k KubeSecretList, scope constructs.Construct, id
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeSecretList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSecretList",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -50113,7 +50113,7 @@ func KubeSecretList_Manifest(props *KubeSecretListProps) interface{} {
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeSecretList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSecretList",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -50134,7 +50134,7 @@ func KubeSecretList_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeSecretList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSecretList",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -50147,7 +50147,7 @@ func KubeSecretList_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeSecretList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSecretList",
 		"GVK",
 		&returns,
 	)
@@ -50428,7 +50428,7 @@ func NewKubeSelfSubjectAccessReview(scope constructs.Construct, id *string, prop
 	j := jsiiProxy_KubeSelfSubjectAccessReview{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectAccessReview",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectAccessReview",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -50442,7 +50442,7 @@ func NewKubeSelfSubjectAccessReview_Override(k KubeSelfSubjectAccessReview, scop
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectAccessReview",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectAccessReview",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -50458,7 +50458,7 @@ func KubeSelfSubjectAccessReview_Manifest(props *KubeSelfSubjectAccessReviewProp
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectAccessReview",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectAccessReview",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -50479,7 +50479,7 @@ func KubeSelfSubjectAccessReview_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectAccessReview",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectAccessReview",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -50492,7 +50492,7 @@ func KubeSelfSubjectAccessReview_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectAccessReview",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectAccessReview",
 		"GVK",
 		&returns,
 	)
@@ -50742,7 +50742,7 @@ func NewKubeSelfSubjectAccessReviewV1Beta1(scope constructs.Construct, id *strin
 	j := jsiiProxy_KubeSelfSubjectAccessReviewV1Beta1{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectAccessReviewV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectAccessReviewV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -50756,7 +50756,7 @@ func NewKubeSelfSubjectAccessReviewV1Beta1_Override(k KubeSelfSubjectAccessRevie
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectAccessReviewV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectAccessReviewV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -50772,7 +50772,7 @@ func KubeSelfSubjectAccessReviewV1Beta1_Manifest(props *KubeSelfSubjectAccessRev
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectAccessReviewV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectAccessReviewV1Beta1",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -50793,7 +50793,7 @@ func KubeSelfSubjectAccessReviewV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObj
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectAccessReviewV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectAccessReviewV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -50806,7 +50806,7 @@ func KubeSelfSubjectAccessReviewV1Beta1_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectAccessReviewV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectAccessReviewV1Beta1",
 		"GVK",
 		&returns,
 	)
@@ -51056,7 +51056,7 @@ func NewKubeSelfSubjectRulesReview(scope constructs.Construct, id *string, props
 	j := jsiiProxy_KubeSelfSubjectRulesReview{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectRulesReview",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectRulesReview",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -51070,7 +51070,7 @@ func NewKubeSelfSubjectRulesReview_Override(k KubeSelfSubjectRulesReview, scope 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectRulesReview",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectRulesReview",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -51086,7 +51086,7 @@ func KubeSelfSubjectRulesReview_Manifest(props *KubeSelfSubjectRulesReviewProps)
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectRulesReview",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectRulesReview",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -51107,7 +51107,7 @@ func KubeSelfSubjectRulesReview_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectRulesReview",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectRulesReview",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -51120,7 +51120,7 @@ func KubeSelfSubjectRulesReview_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectRulesReview",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectRulesReview",
 		"GVK",
 		&returns,
 	)
@@ -51368,7 +51368,7 @@ func NewKubeSelfSubjectRulesReviewV1Beta1(scope constructs.Construct, id *string
 	j := jsiiProxy_KubeSelfSubjectRulesReviewV1Beta1{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectRulesReviewV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectRulesReviewV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -51382,7 +51382,7 @@ func NewKubeSelfSubjectRulesReviewV1Beta1_Override(k KubeSelfSubjectRulesReviewV
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectRulesReviewV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectRulesReviewV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -51398,7 +51398,7 @@ func KubeSelfSubjectRulesReviewV1Beta1_Manifest(props *KubeSelfSubjectRulesRevie
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectRulesReviewV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectRulesReviewV1Beta1",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -51419,7 +51419,7 @@ func KubeSelfSubjectRulesReviewV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObje
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectRulesReviewV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectRulesReviewV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -51432,7 +51432,7 @@ func KubeSelfSubjectRulesReviewV1Beta1_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectRulesReviewV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectRulesReviewV1Beta1",
 		"GVK",
 		&returns,
 	)
@@ -51678,7 +51678,7 @@ func NewKubeService(scope constructs.Construct, id *string, props *KubeServicePr
 	j := jsiiProxy_KubeService{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeService",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeService",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -51692,7 +51692,7 @@ func NewKubeService_Override(k KubeService, scope constructs.Construct, id *stri
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeService",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeService",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -51708,7 +51708,7 @@ func KubeService_Manifest(props *KubeServiceProps) interface{} {
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeService",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeService",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -51729,7 +51729,7 @@ func KubeService_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeService",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeService",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -51742,7 +51742,7 @@ func KubeService_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeService",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeService",
 		"GVK",
 		&returns,
 	)
@@ -51976,7 +51976,7 @@ func NewKubeServiceAccount(scope constructs.Construct, id *string, props *KubeSe
 	j := jsiiProxy_KubeServiceAccount{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeServiceAccount",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeServiceAccount",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -51990,7 +51990,7 @@ func NewKubeServiceAccount_Override(k KubeServiceAccount, scope constructs.Const
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeServiceAccount",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeServiceAccount",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -52006,7 +52006,7 @@ func KubeServiceAccount_Manifest(props *KubeServiceAccountProps) interface{} {
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeServiceAccount",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeServiceAccount",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -52027,7 +52027,7 @@ func KubeServiceAccount_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeServiceAccount",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeServiceAccount",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -52040,7 +52040,7 @@ func KubeServiceAccount_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeServiceAccount",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeServiceAccount",
 		"GVK",
 		&returns,
 	)
@@ -52274,7 +52274,7 @@ func NewKubeServiceAccountList(scope constructs.Construct, id *string, props *Ku
 	j := jsiiProxy_KubeServiceAccountList{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeServiceAccountList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeServiceAccountList",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -52288,7 +52288,7 @@ func NewKubeServiceAccountList_Override(k KubeServiceAccountList, scope construc
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeServiceAccountList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeServiceAccountList",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -52304,7 +52304,7 @@ func KubeServiceAccountList_Manifest(props *KubeServiceAccountListProps) interfa
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeServiceAccountList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeServiceAccountList",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -52325,7 +52325,7 @@ func KubeServiceAccountList_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeServiceAccountList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeServiceAccountList",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -52338,7 +52338,7 @@ func KubeServiceAccountList_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeServiceAccountList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeServiceAccountList",
 		"GVK",
 		&returns,
 	)
@@ -52612,7 +52612,7 @@ func NewKubeServiceList(scope constructs.Construct, id *string, props *KubeServi
 	j := jsiiProxy_KubeServiceList{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeServiceList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeServiceList",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -52626,7 +52626,7 @@ func NewKubeServiceList_Override(k KubeServiceList, scope constructs.Construct, 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeServiceList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeServiceList",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -52642,7 +52642,7 @@ func KubeServiceList_Manifest(props *KubeServiceListProps) interface{} {
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeServiceList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeServiceList",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -52663,7 +52663,7 @@ func KubeServiceList_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeServiceList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeServiceList",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -52676,7 +52676,7 @@ func KubeServiceList_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeServiceList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeServiceList",
 		"GVK",
 		&returns,
 	)
@@ -52943,7 +52943,7 @@ func NewKubeStatefulSet(scope constructs.Construct, id *string, props *KubeState
 	j := jsiiProxy_KubeStatefulSet{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeStatefulSet",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStatefulSet",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -52957,7 +52957,7 @@ func NewKubeStatefulSet_Override(k KubeStatefulSet, scope constructs.Construct, 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeStatefulSet",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStatefulSet",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -52973,7 +52973,7 @@ func KubeStatefulSet_Manifest(props *KubeStatefulSetProps) interface{} {
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeStatefulSet",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStatefulSet",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -52994,7 +52994,7 @@ func KubeStatefulSet_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeStatefulSet",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStatefulSet",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -53007,7 +53007,7 @@ func KubeStatefulSet_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeStatefulSet",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStatefulSet",
 		"GVK",
 		&returns,
 	)
@@ -53241,7 +53241,7 @@ func NewKubeStatefulSetList(scope constructs.Construct, id *string, props *KubeS
 	j := jsiiProxy_KubeStatefulSetList{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeStatefulSetList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStatefulSetList",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -53255,7 +53255,7 @@ func NewKubeStatefulSetList_Override(k KubeStatefulSetList, scope constructs.Con
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeStatefulSetList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStatefulSetList",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -53271,7 +53271,7 @@ func KubeStatefulSetList_Manifest(props *KubeStatefulSetListProps) interface{} {
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeStatefulSetList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStatefulSetList",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -53292,7 +53292,7 @@ func KubeStatefulSetList_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeStatefulSetList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStatefulSetList",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -53305,7 +53305,7 @@ func KubeStatefulSetList_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeStatefulSetList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStatefulSetList",
 		"GVK",
 		&returns,
 	)
@@ -53563,7 +53563,7 @@ func NewKubeStatus(scope constructs.Construct, id *string, props *KubeStatusProp
 	j := jsiiProxy_KubeStatus{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeStatus",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStatus",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -53577,7 +53577,7 @@ func NewKubeStatus_Override(k KubeStatus, scope constructs.Construct, id *string
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeStatus",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStatus",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -53593,7 +53593,7 @@ func KubeStatus_Manifest(props *KubeStatusProps) interface{} {
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeStatus",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStatus",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -53614,7 +53614,7 @@ func KubeStatus_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeStatus",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStatus",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -53627,7 +53627,7 @@ func KubeStatus_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeStatus",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStatus",
 		"GVK",
 		&returns,
 	)
@@ -53889,7 +53889,7 @@ func NewKubeStorageClass(scope constructs.Construct, id *string, props *KubeStor
 	j := jsiiProxy_KubeStorageClass{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeStorageClass",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageClass",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -53903,7 +53903,7 @@ func NewKubeStorageClass_Override(k KubeStorageClass, scope constructs.Construct
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeStorageClass",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageClass",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -53919,7 +53919,7 @@ func KubeStorageClass_Manifest(props *KubeStorageClassProps) interface{} {
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeStorageClass",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageClass",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -53940,7 +53940,7 @@ func KubeStorageClass_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeStorageClass",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageClass",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -53953,7 +53953,7 @@ func KubeStorageClass_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeStorageClass",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageClass",
 		"GVK",
 		&returns,
 	)
@@ -54187,7 +54187,7 @@ func NewKubeStorageClassList(scope constructs.Construct, id *string, props *Kube
 	j := jsiiProxy_KubeStorageClassList{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeStorageClassList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageClassList",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -54201,7 +54201,7 @@ func NewKubeStorageClassList_Override(k KubeStorageClassList, scope constructs.C
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeStorageClassList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageClassList",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -54217,7 +54217,7 @@ func KubeStorageClassList_Manifest(props *KubeStorageClassListProps) interface{}
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeStorageClassList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageClassList",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -54238,7 +54238,7 @@ func KubeStorageClassList_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeStorageClassList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageClassList",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -54251,7 +54251,7 @@ func KubeStorageClassList_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeStorageClassList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageClassList",
 		"GVK",
 		&returns,
 	)
@@ -54496,7 +54496,7 @@ func NewKubeStorageClassListV1Beta1(scope constructs.Construct, id *string, prop
 	j := jsiiProxy_KubeStorageClassListV1Beta1{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeStorageClassListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageClassListV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -54510,7 +54510,7 @@ func NewKubeStorageClassListV1Beta1_Override(k KubeStorageClassListV1Beta1, scop
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeStorageClassListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageClassListV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -54526,7 +54526,7 @@ func KubeStorageClassListV1Beta1_Manifest(props *KubeStorageClassListV1Beta1Prop
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeStorageClassListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageClassListV1Beta1",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -54547,7 +54547,7 @@ func KubeStorageClassListV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeStorageClassListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageClassListV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -54560,7 +54560,7 @@ func KubeStorageClassListV1Beta1_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeStorageClassListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageClassListV1Beta1",
 		"GVK",
 		&returns,
 	)
@@ -54846,7 +54846,7 @@ func NewKubeStorageClassV1Beta1(scope constructs.Construct, id *string, props *K
 	j := jsiiProxy_KubeStorageClassV1Beta1{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeStorageClassV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageClassV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -54860,7 +54860,7 @@ func NewKubeStorageClassV1Beta1_Override(k KubeStorageClassV1Beta1, scope constr
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeStorageClassV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageClassV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -54876,7 +54876,7 @@ func KubeStorageClassV1Beta1_Manifest(props *KubeStorageClassV1Beta1Props) inter
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeStorageClassV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageClassV1Beta1",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -54897,7 +54897,7 @@ func KubeStorageClassV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeStorageClassV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageClassV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -54910,7 +54910,7 @@ func KubeStorageClassV1Beta1_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeStorageClassV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageClassV1Beta1",
 		"GVK",
 		&returns,
 	)
@@ -55183,7 +55183,7 @@ func NewKubeStorageVersionListV1Alpha1(scope constructs.Construct, id *string, p
 	j := jsiiProxy_KubeStorageVersionListV1Alpha1{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeStorageVersionListV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageVersionListV1Alpha1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -55197,7 +55197,7 @@ func NewKubeStorageVersionListV1Alpha1_Override(k KubeStorageVersionListV1Alpha1
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeStorageVersionListV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageVersionListV1Alpha1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -55213,7 +55213,7 @@ func KubeStorageVersionListV1Alpha1_Manifest(props *KubeStorageVersionListV1Alph
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeStorageVersionListV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageVersionListV1Alpha1",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -55234,7 +55234,7 @@ func KubeStorageVersionListV1Alpha1_Of(c constructs.IConstruct) cdk8s.ApiObject 
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeStorageVersionListV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageVersionListV1Alpha1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -55247,7 +55247,7 @@ func KubeStorageVersionListV1Alpha1_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeStorageVersionListV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageVersionListV1Alpha1",
 		"GVK",
 		&returns,
 	)
@@ -55490,7 +55490,7 @@ func NewKubeStorageVersionV1Alpha1(scope constructs.Construct, id *string, props
 	j := jsiiProxy_KubeStorageVersionV1Alpha1{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeStorageVersionV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageVersionV1Alpha1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -55504,7 +55504,7 @@ func NewKubeStorageVersionV1Alpha1_Override(k KubeStorageVersionV1Alpha1, scope 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeStorageVersionV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageVersionV1Alpha1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -55520,7 +55520,7 @@ func KubeStorageVersionV1Alpha1_Manifest(props *KubeStorageVersionV1Alpha1Props)
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeStorageVersionV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageVersionV1Alpha1",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -55541,7 +55541,7 @@ func KubeStorageVersionV1Alpha1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeStorageVersionV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageVersionV1Alpha1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -55554,7 +55554,7 @@ func KubeStorageVersionV1Alpha1_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeStorageVersionV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageVersionV1Alpha1",
 		"GVK",
 		&returns,
 	)
@@ -55801,7 +55801,7 @@ func NewKubeSubjectAccessReview(scope constructs.Construct, id *string, props *K
 	j := jsiiProxy_KubeSubjectAccessReview{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeSubjectAccessReview",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSubjectAccessReview",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -55815,7 +55815,7 @@ func NewKubeSubjectAccessReview_Override(k KubeSubjectAccessReview, scope constr
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeSubjectAccessReview",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSubjectAccessReview",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -55831,7 +55831,7 @@ func KubeSubjectAccessReview_Manifest(props *KubeSubjectAccessReviewProps) inter
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeSubjectAccessReview",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSubjectAccessReview",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -55852,7 +55852,7 @@ func KubeSubjectAccessReview_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeSubjectAccessReview",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSubjectAccessReview",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -55865,7 +55865,7 @@ func KubeSubjectAccessReview_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeSubjectAccessReview",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSubjectAccessReview",
 		"GVK",
 		&returns,
 	)
@@ -56109,7 +56109,7 @@ func NewKubeSubjectAccessReviewV1Beta1(scope constructs.Construct, id *string, p
 	j := jsiiProxy_KubeSubjectAccessReviewV1Beta1{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeSubjectAccessReviewV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSubjectAccessReviewV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -56123,7 +56123,7 @@ func NewKubeSubjectAccessReviewV1Beta1_Override(k KubeSubjectAccessReviewV1Beta1
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeSubjectAccessReviewV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSubjectAccessReviewV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -56139,7 +56139,7 @@ func KubeSubjectAccessReviewV1Beta1_Manifest(props *KubeSubjectAccessReviewV1Bet
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeSubjectAccessReviewV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSubjectAccessReviewV1Beta1",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -56160,7 +56160,7 @@ func KubeSubjectAccessReviewV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObject 
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeSubjectAccessReviewV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSubjectAccessReviewV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -56173,7 +56173,7 @@ func KubeSubjectAccessReviewV1Beta1_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeSubjectAccessReviewV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSubjectAccessReviewV1Beta1",
 		"GVK",
 		&returns,
 	)
@@ -56417,7 +56417,7 @@ func NewKubeTokenRequest(scope constructs.Construct, id *string, props *KubeToke
 	j := jsiiProxy_KubeTokenRequest{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeTokenRequest",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeTokenRequest",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -56431,7 +56431,7 @@ func NewKubeTokenRequest_Override(k KubeTokenRequest, scope constructs.Construct
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeTokenRequest",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeTokenRequest",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -56447,7 +56447,7 @@ func KubeTokenRequest_Manifest(props *KubeTokenRequestProps) interface{} {
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeTokenRequest",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeTokenRequest",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -56468,7 +56468,7 @@ func KubeTokenRequest_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeTokenRequest",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeTokenRequest",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -56481,7 +56481,7 @@ func KubeTokenRequest_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeTokenRequest",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeTokenRequest",
 		"GVK",
 		&returns,
 	)
@@ -56726,7 +56726,7 @@ func NewKubeTokenReview(scope constructs.Construct, id *string, props *KubeToken
 	j := jsiiProxy_KubeTokenReview{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeTokenReview",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeTokenReview",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -56740,7 +56740,7 @@ func NewKubeTokenReview_Override(k KubeTokenReview, scope constructs.Construct, 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeTokenReview",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeTokenReview",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -56756,7 +56756,7 @@ func KubeTokenReview_Manifest(props *KubeTokenReviewProps) interface{} {
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeTokenReview",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeTokenReview",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -56777,7 +56777,7 @@ func KubeTokenReview_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeTokenReview",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeTokenReview",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -56790,7 +56790,7 @@ func KubeTokenReview_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeTokenReview",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeTokenReview",
 		"GVK",
 		&returns,
 	)
@@ -57038,7 +57038,7 @@ func NewKubeTokenReviewV1Beta1(scope constructs.Construct, id *string, props *Ku
 	j := jsiiProxy_KubeTokenReviewV1Beta1{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeTokenReviewV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeTokenReviewV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -57052,7 +57052,7 @@ func NewKubeTokenReviewV1Beta1_Override(k KubeTokenReviewV1Beta1, scope construc
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeTokenReviewV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeTokenReviewV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -57068,7 +57068,7 @@ func KubeTokenReviewV1Beta1_Manifest(props *KubeTokenReviewV1Beta1Props) interfa
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeTokenReviewV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeTokenReviewV1Beta1",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -57089,7 +57089,7 @@ func KubeTokenReviewV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeTokenReviewV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeTokenReviewV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -57102,7 +57102,7 @@ func KubeTokenReviewV1Beta1_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeTokenReviewV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeTokenReviewV1Beta1",
 		"GVK",
 		&returns,
 	)
@@ -57348,7 +57348,7 @@ func NewKubeValidatingWebhookConfiguration(scope constructs.Construct, id *strin
 	j := jsiiProxy_KubeValidatingWebhookConfiguration{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfiguration",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfiguration",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -57362,7 +57362,7 @@ func NewKubeValidatingWebhookConfiguration_Override(k KubeValidatingWebhookConfi
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfiguration",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfiguration",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -57378,7 +57378,7 @@ func KubeValidatingWebhookConfiguration_Manifest(props *KubeValidatingWebhookCon
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfiguration",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfiguration",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -57399,7 +57399,7 @@ func KubeValidatingWebhookConfiguration_Of(c constructs.IConstruct) cdk8s.ApiObj
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfiguration",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfiguration",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -57412,7 +57412,7 @@ func KubeValidatingWebhookConfiguration_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfiguration",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfiguration",
 		"GVK",
 		&returns,
 	)
@@ -57646,7 +57646,7 @@ func NewKubeValidatingWebhookConfigurationList(scope constructs.Construct, id *s
 	j := jsiiProxy_KubeValidatingWebhookConfigurationList{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfigurationList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfigurationList",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -57660,7 +57660,7 @@ func NewKubeValidatingWebhookConfigurationList_Override(k KubeValidatingWebhookC
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfigurationList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfigurationList",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -57676,7 +57676,7 @@ func KubeValidatingWebhookConfigurationList_Manifest(props *KubeValidatingWebhoo
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfigurationList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfigurationList",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -57697,7 +57697,7 @@ func KubeValidatingWebhookConfigurationList_Of(c constructs.IConstruct) cdk8s.Ap
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfigurationList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfigurationList",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -57710,7 +57710,7 @@ func KubeValidatingWebhookConfigurationList_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfigurationList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfigurationList",
 		"GVK",
 		&returns,
 	)
@@ -57957,7 +57957,7 @@ func NewKubeValidatingWebhookConfigurationListV1Beta1(scope constructs.Construct
 	j := jsiiProxy_KubeValidatingWebhookConfigurationListV1Beta1{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfigurationListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfigurationListV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -57971,7 +57971,7 @@ func NewKubeValidatingWebhookConfigurationListV1Beta1_Override(k KubeValidatingW
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfigurationListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfigurationListV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -57987,7 +57987,7 @@ func KubeValidatingWebhookConfigurationListV1Beta1_Manifest(props *KubeValidatin
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfigurationListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfigurationListV1Beta1",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -58008,7 +58008,7 @@ func KubeValidatingWebhookConfigurationListV1Beta1_Of(c constructs.IConstruct) c
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfigurationListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfigurationListV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -58021,7 +58021,7 @@ func KubeValidatingWebhookConfigurationListV1Beta1_GVK() *cdk8s.GroupVersionKind
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfigurationListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfigurationListV1Beta1",
 		"GVK",
 		&returns,
 	)
@@ -58283,7 +58283,7 @@ func NewKubeValidatingWebhookConfigurationV1Beta1(scope constructs.Construct, id
 	j := jsiiProxy_KubeValidatingWebhookConfigurationV1Beta1{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfigurationV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfigurationV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -58297,7 +58297,7 @@ func NewKubeValidatingWebhookConfigurationV1Beta1_Override(k KubeValidatingWebho
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfigurationV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfigurationV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -58313,7 +58313,7 @@ func KubeValidatingWebhookConfigurationV1Beta1_Manifest(props *KubeValidatingWeb
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfigurationV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfigurationV1Beta1",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -58334,7 +58334,7 @@ func KubeValidatingWebhookConfigurationV1Beta1_Of(c constructs.IConstruct) cdk8s
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfigurationV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfigurationV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -58347,7 +58347,7 @@ func KubeValidatingWebhookConfigurationV1Beta1_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfigurationV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfigurationV1Beta1",
 		"GVK",
 		&returns,
 	)
@@ -58598,7 +58598,7 @@ func NewKubeVolumeAttachment(scope constructs.Construct, id *string, props *Kube
 	j := jsiiProxy_KubeVolumeAttachment{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachment",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachment",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -58612,7 +58612,7 @@ func NewKubeVolumeAttachment_Override(k KubeVolumeAttachment, scope constructs.C
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachment",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachment",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -58628,7 +58628,7 @@ func KubeVolumeAttachment_Manifest(props *KubeVolumeAttachmentProps) interface{}
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachment",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachment",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -58649,7 +58649,7 @@ func KubeVolumeAttachment_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachment",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachment",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -58662,7 +58662,7 @@ func KubeVolumeAttachment_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachment",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachment",
 		"GVK",
 		&returns,
 	)
@@ -58896,7 +58896,7 @@ func NewKubeVolumeAttachmentList(scope constructs.Construct, id *string, props *
 	j := jsiiProxy_KubeVolumeAttachmentList{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentList",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -58910,7 +58910,7 @@ func NewKubeVolumeAttachmentList_Override(k KubeVolumeAttachmentList, scope cons
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentList",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -58926,7 +58926,7 @@ func KubeVolumeAttachmentList_Manifest(props *KubeVolumeAttachmentListProps) int
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentList",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -58947,7 +58947,7 @@ func KubeVolumeAttachmentList_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentList",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -58960,7 +58960,7 @@ func KubeVolumeAttachmentList_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentList",
 		"GVK",
 		&returns,
 	)
@@ -59205,7 +59205,7 @@ func NewKubeVolumeAttachmentListV1Alpha1(scope constructs.Construct, id *string,
 	j := jsiiProxy_KubeVolumeAttachmentListV1Alpha1{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentListV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentListV1Alpha1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -59219,7 +59219,7 @@ func NewKubeVolumeAttachmentListV1Alpha1_Override(k KubeVolumeAttachmentListV1Al
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentListV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentListV1Alpha1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -59235,7 +59235,7 @@ func KubeVolumeAttachmentListV1Alpha1_Manifest(props *KubeVolumeAttachmentListV1
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentListV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentListV1Alpha1",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -59256,7 +59256,7 @@ func KubeVolumeAttachmentListV1Alpha1_Of(c constructs.IConstruct) cdk8s.ApiObjec
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentListV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentListV1Alpha1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -59269,7 +59269,7 @@ func KubeVolumeAttachmentListV1Alpha1_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentListV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentListV1Alpha1",
 		"GVK",
 		&returns,
 	)
@@ -59514,7 +59514,7 @@ func NewKubeVolumeAttachmentListV1Beta1(scope constructs.Construct, id *string, 
 	j := jsiiProxy_KubeVolumeAttachmentListV1Beta1{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentListV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -59528,7 +59528,7 @@ func NewKubeVolumeAttachmentListV1Beta1_Override(k KubeVolumeAttachmentListV1Bet
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentListV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -59544,7 +59544,7 @@ func KubeVolumeAttachmentListV1Beta1_Manifest(props *KubeVolumeAttachmentListV1B
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentListV1Beta1",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -59565,7 +59565,7 @@ func KubeVolumeAttachmentListV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObject
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentListV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -59578,7 +59578,7 @@ func KubeVolumeAttachmentListV1Beta1_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentListV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentListV1Beta1",
 		"GVK",
 		&returns,
 	)
@@ -59842,7 +59842,7 @@ func NewKubeVolumeAttachmentV1Alpha1(scope constructs.Construct, id *string, pro
 	j := jsiiProxy_KubeVolumeAttachmentV1Alpha1{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentV1Alpha1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -59856,7 +59856,7 @@ func NewKubeVolumeAttachmentV1Alpha1_Override(k KubeVolumeAttachmentV1Alpha1, sc
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentV1Alpha1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -59872,7 +59872,7 @@ func KubeVolumeAttachmentV1Alpha1_Manifest(props *KubeVolumeAttachmentV1Alpha1Pr
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentV1Alpha1",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -59893,7 +59893,7 @@ func KubeVolumeAttachmentV1Alpha1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentV1Alpha1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -59906,7 +59906,7 @@ func KubeVolumeAttachmentV1Alpha1_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentV1Alpha1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentV1Alpha1",
 		"GVK",
 		&returns,
 	)
@@ -60159,7 +60159,7 @@ func NewKubeVolumeAttachmentV1Beta1(scope constructs.Construct, id *string, prop
 	j := jsiiProxy_KubeVolumeAttachmentV1Beta1{}
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentV1Beta1",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -60173,7 +60173,7 @@ func NewKubeVolumeAttachmentV1Beta1_Override(k KubeVolumeAttachmentV1Beta1, scop
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentV1Beta1",
 		[]interface{}{scope, id, props},
 		k,
 	)
@@ -60189,7 +60189,7 @@ func KubeVolumeAttachmentV1Beta1_Manifest(props *KubeVolumeAttachmentV1Beta1Prop
 	var returns interface{}
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentV1Beta1",
 		"manifest",
 		[]interface{}{props},
 		&returns,
@@ -60210,7 +60210,7 @@ func KubeVolumeAttachmentV1Beta1_Of(c constructs.IConstruct) cdk8s.ApiObject {
 	var returns cdk8s.ApiObject
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentV1Beta1",
 		"of",
 		[]interface{}{c},
 		&returns,
@@ -60223,7 +60223,7 @@ func KubeVolumeAttachmentV1Beta1_GVK() *cdk8s.GroupVersionKind {
 	_init_.Initialize()
 	var returns *cdk8s.GroupVersionKind
 	_jsii_.StaticGet(
-		"cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentV1Beta1",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentV1Beta1",
 		"GVK",
 		&returns,
 	)
@@ -62356,7 +62356,7 @@ func Quantity_FromNumber(value *float64) Quantity {
 	var returns Quantity
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.Quantity",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.Quantity",
 		"fromNumber",
 		[]interface{}{value},
 		&returns,
@@ -62372,7 +62372,7 @@ func Quantity_FromString(value *string) Quantity {
 	var returns Quantity
 
 	_jsii_.StaticInvoke(
-		"cdk8s-secrets-store-csi-driver.k8s.Quantity",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.Quantity",
 		"fromString",
 		[]interface{}{value},
 		&returns,

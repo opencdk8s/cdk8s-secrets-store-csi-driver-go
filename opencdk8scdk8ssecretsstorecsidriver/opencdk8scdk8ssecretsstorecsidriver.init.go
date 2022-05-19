@@ -1,4 +1,4 @@
-package cdk8ssecretsstorecsidriver
+package opencdk8scdk8ssecretsstorecsidriver
 
 import (
 	"reflect"
@@ -8,11 +8,11 @@ import (
 
 func init() {
 	_jsii_.RegisterStruct(
-		"cdk8s-secrets-store-csi-driver.ByPodStatus",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.ByPodStatus",
 		reflect.TypeOf((*ByPodStatus)(nil)).Elem(),
 	)
 	_jsii_.RegisterEnum(
-		"cdk8s-secrets-store-csi-driver.Provider",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.Provider",
 		reflect.TypeOf((*Provider)(nil)).Elem(),
 		map[string]interface{}{
 			"AWS": Provider_AWS,
@@ -22,15 +22,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"cdk8s-secrets-store-csi-driver.SecretObject",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.SecretObject",
 		reflect.TypeOf((*SecretObject)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"cdk8s-secrets-store-csi-driver.SecretObjectData",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.SecretObjectData",
 		reflect.TypeOf((*SecretObjectData)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"cdk8s-secrets-store-csi-driver.SecretProviderClass",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.SecretProviderClass",
 		reflect.TypeOf((*SecretProviderClass)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -54,7 +54,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"cdk8s-secrets-store-csi-driver.SecretProviderClassList",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.SecretProviderClassList",
 		reflect.TypeOf((*SecretProviderClassList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addDependency", GoMethod: "AddDependency"},
@@ -78,19 +78,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"cdk8s-secrets-store-csi-driver.SecretProviderClassListProps",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.SecretProviderClassListProps",
 		reflect.TypeOf((*SecretProviderClassListProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"cdk8s-secrets-store-csi-driver.SecretProviderClassProps",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.SecretProviderClassProps",
 		reflect.TypeOf((*SecretProviderClassProps)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"cdk8s-secrets-store-csi-driver.SecretProviderClassSpec",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.SecretProviderClassSpec",
 		reflect.TypeOf((*SecretProviderClassSpec)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"cdk8s-secrets-store-csi-driver.SecretProviderClassStatus",
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.SecretProviderClassStatus",
 		reflect.TypeOf((*SecretProviderClassStatus)(nil)).Elem(),
 	)
 }
