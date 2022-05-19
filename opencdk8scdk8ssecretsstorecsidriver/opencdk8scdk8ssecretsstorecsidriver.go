@@ -667,7 +667,7 @@ type SecretProviderClassProps struct {
 // Experimental.
 type SecretProviderClassSpec struct {
 	// Experimental.
-	Parameters *map[string]*string `field:"optional" json:"parameters" yaml:"parameters"`
+	Parameters *map[string]interface{} `field:"optional" json:"parameters" yaml:"parameters"`
 	// Experimental.
 	Provider Provider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
