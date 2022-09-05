@@ -5,8 +5,8 @@ import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 	_init_ "github.com/opencdk8s/cdk8s-secrets-store-csi-driver-go/opencdk8scdk8ssecretsstorecsidriver/jsii"
 
-	"github.com/aws/constructs-go/constructs/v3"
-	"github.com/cdk8s-team/cdk8s-core-go/cdk8s"
+	"github.com/aws/constructs-go/constructs/v10"
+	"github.com/cdk8s-team/cdk8s-core-go/cdk8s/v2"
 	"github.com/opencdk8s/cdk8s-secrets-store-csi-driver-go/opencdk8scdk8ssecretsstorecsidriver/internal"
 	"github.com/opencdk8s/cdk8s-secrets-store-csi-driver-go/opencdk8scdk8ssecretsstorecsidriver/k8s"
 )
@@ -81,6 +81,9 @@ type SecretProviderClass interface {
 	// construct path to generate a DNS-compatible name for the resource.
 	// Experimental.
 	Name() *string
+	// The tree node.
+	// Experimental.
+	Node() constructs.Node
 	// Create a dependency between this ApiObject and other constructs.
 	//
 	// These can be other ApiObjects, Charts, or custom.
@@ -93,31 +96,6 @@ type SecretProviderClass interface {
 	//
 	// Experimental.
 	AddJsonPatch(ops ...cdk8s.JsonPatch)
-	// Perform final modifications before synthesis.
-	//
-	// This method can be implemented by derived constructs in order to perform
-	// final changes before synthesis. prepare() will be called after child
-	// constructs have been prepared.
-	//
-	// This is an advanced framework feature. Only use this if you
-	// understand the implications.
-	// Experimental.
-	OnPrepare()
-	// Allows this construct to emit artifacts into the cloud assembly during synthesis.
-	//
-	// This method is usually implemented by framework-level constructs such as `Stack` and `Asset`
-	// as they participate in synthesizing the cloud assembly.
-	// Experimental.
-	OnSynthesize(session constructs.ISynthesisSession)
-	// Validate the current construct.
-	//
-	// This method can be implemented by derived constructs in order to perform
-	// validation logic. It is called on all constructs before synthesis.
-	//
-	// Returns: An array of validation error messages, or an empty array if there the construct is valid.
-	// Deprecated: use `Node.addValidation()` to subscribe validation functions on this construct
-	// instead of overriding this method.
-	OnValidate() *[]*string
 	// Renders the object to Kubernetes JSON.
 	//
 	// To disable sorting of dictionary keys in output object set the
@@ -194,6 +172,16 @@ func (j *jsiiProxy_SecretProviderClass) Name() *string {
 	return returns
 }
 
+func (j *jsiiProxy_SecretProviderClass) Node() constructs.Node {
+	var returns constructs.Node
+	_jsii_.Get(
+		j,
+		"node",
+		&returns,
+	)
+	return returns
+}
+
 
 // Experimental.
 func NewSecretProviderClass(scope constructs.Construct, id *string, props *SecretProviderClassProps) SecretProviderClass {
@@ -219,6 +207,25 @@ func NewSecretProviderClass_Override(s SecretProviderClass, scope constructs.Con
 		[]interface{}{scope, id, props},
 		s,
 	)
+}
+
+// Checks if `x` is a construct.
+//
+// Returns: true if `x` is an object created from a class which extends `Construct`.
+// Deprecated: use `x instanceof Construct` instead.
+func SecretProviderClass_IsConstruct(x interface{}) *bool {
+	_init_.Initialize()
+
+	var returns *bool
+
+	_jsii_.StaticInvoke(
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.SecretProviderClass",
+		"isConstruct",
+		[]interface{}{x},
+		&returns,
+	)
+
+	return returns
 }
 
 // Experimental.
@@ -295,35 +302,6 @@ func (s *jsiiProxy_SecretProviderClass) AddJsonPatch(ops ...cdk8s.JsonPatch) {
 	)
 }
 
-func (s *jsiiProxy_SecretProviderClass) OnPrepare() {
-	_jsii_.InvokeVoid(
-		s,
-		"onPrepare",
-		nil, // no parameters
-	)
-}
-
-func (s *jsiiProxy_SecretProviderClass) OnSynthesize(session constructs.ISynthesisSession) {
-	_jsii_.InvokeVoid(
-		s,
-		"onSynthesize",
-		[]interface{}{session},
-	)
-}
-
-func (s *jsiiProxy_SecretProviderClass) OnValidate() *[]*string {
-	var returns *[]*string
-
-	_jsii_.Invoke(
-		s,
-		"onValidate",
-		nil, // no parameters
-		&returns,
-	)
-
-	return returns
-}
-
 func (s *jsiiProxy_SecretProviderClass) ToJson() interface{} {
 	var returns interface{}
 
@@ -376,6 +354,9 @@ type SecretProviderClassList interface {
 	// construct path to generate a DNS-compatible name for the resource.
 	// Experimental.
 	Name() *string
+	// The tree node.
+	// Experimental.
+	Node() constructs.Node
 	// Create a dependency between this ApiObject and other constructs.
 	//
 	// These can be other ApiObjects, Charts, or custom.
@@ -388,31 +369,6 @@ type SecretProviderClassList interface {
 	//
 	// Experimental.
 	AddJsonPatch(ops ...cdk8s.JsonPatch)
-	// Perform final modifications before synthesis.
-	//
-	// This method can be implemented by derived constructs in order to perform
-	// final changes before synthesis. prepare() will be called after child
-	// constructs have been prepared.
-	//
-	// This is an advanced framework feature. Only use this if you
-	// understand the implications.
-	// Experimental.
-	OnPrepare()
-	// Allows this construct to emit artifacts into the cloud assembly during synthesis.
-	//
-	// This method is usually implemented by framework-level constructs such as `Stack` and `Asset`
-	// as they participate in synthesizing the cloud assembly.
-	// Experimental.
-	OnSynthesize(session constructs.ISynthesisSession)
-	// Validate the current construct.
-	//
-	// This method can be implemented by derived constructs in order to perform
-	// validation logic. It is called on all constructs before synthesis.
-	//
-	// Returns: An array of validation error messages, or an empty array if there the construct is valid.
-	// Deprecated: use `Node.addValidation()` to subscribe validation functions on this construct
-	// instead of overriding this method.
-	OnValidate() *[]*string
 	// Renders the object to Kubernetes JSON.
 	//
 	// To disable sorting of dictionary keys in output object set the
@@ -489,6 +445,16 @@ func (j *jsiiProxy_SecretProviderClassList) Name() *string {
 	return returns
 }
 
+func (j *jsiiProxy_SecretProviderClassList) Node() constructs.Node {
+	var returns constructs.Node
+	_jsii_.Get(
+		j,
+		"node",
+		&returns,
+	)
+	return returns
+}
+
 
 // Experimental.
 func NewSecretProviderClassList(scope constructs.Construct, id *string, props *SecretProviderClassListProps) SecretProviderClassList {
@@ -514,6 +480,25 @@ func NewSecretProviderClassList_Override(s SecretProviderClassList, scope constr
 		[]interface{}{scope, id, props},
 		s,
 	)
+}
+
+// Checks if `x` is a construct.
+//
+// Returns: true if `x` is an object created from a class which extends `Construct`.
+// Deprecated: use `x instanceof Construct` instead.
+func SecretProviderClassList_IsConstruct(x interface{}) *bool {
+	_init_.Initialize()
+
+	var returns *bool
+
+	_jsii_.StaticInvoke(
+		"@opencdk8s/cdk8s-secrets-store-csi-driver.SecretProviderClassList",
+		"isConstruct",
+		[]interface{}{x},
+		&returns,
+	)
+
+	return returns
 }
 
 // Experimental.
@@ -588,35 +573,6 @@ func (s *jsiiProxy_SecretProviderClassList) AddJsonPatch(ops ...cdk8s.JsonPatch)
 		"addJsonPatch",
 		args,
 	)
-}
-
-func (s *jsiiProxy_SecretProviderClassList) OnPrepare() {
-	_jsii_.InvokeVoid(
-		s,
-		"onPrepare",
-		nil, // no parameters
-	)
-}
-
-func (s *jsiiProxy_SecretProviderClassList) OnSynthesize(session constructs.ISynthesisSession) {
-	_jsii_.InvokeVoid(
-		s,
-		"onSynthesize",
-		[]interface{}{session},
-	)
-}
-
-func (s *jsiiProxy_SecretProviderClassList) OnValidate() *[]*string {
-	var returns *[]*string
-
-	_jsii_.Invoke(
-		s,
-		"onValidate",
-		nil, // no parameters
-		&returns,
-	)
-
-	return returns
 }
 
 func (s *jsiiProxy_SecretProviderClassList) ToJson() interface{} {
